@@ -1,0 +1,929 @@
+{
+  "version": 6,
+  "metadata": {
+    "documentationVersion": "21.0",
+    "generatedAt": "2026-10-27T13:50:06Z",
+    "baseUrl": "https://docs.boc-group.com/adoit/en/",
+    "systemPrompt": "The ADOIT modelling guide: the Solution Guides and the ArchiMate Patterns. It covers how to model your business processes and information systems.",
+    "mention": {
+      "id": "modellingGuide",
+      "label": {
+        "en": "Modelling Guide",
+        "de": "Modellierungshandbuch"
+      },
+      "description": {
+        "en": "Search the official Modelling Guide",
+        "de": "Durchsuche das offizielle Modellierungshandbuch"
+      }
+    }
+  },
+  "documents": [
+    {
+      "id": "n1",
+      "title": "The ADOIT Solution Guides",
+      "url": "solution-guides/",
+      "summary": "The ADOIT Solution Guides provide step-by-step instructions based on consulting experience to help users efficiently master key Enterprise Architecture initiatives like Application Portfolio Management and Capability-based Planning within ADOIT.",
+      "content": "Thank you for your interest in our ADOIT solutions! We are excited to help you transform your Enterprise Architecture initiatives into actionable results.\n\nTo ensure you can seamlessly transition from strategy to execution, we have developed these dedicated Solution Guides. Based on our years of consulting experience, we have carefully selected these solutions to reflect industry best practices. They provide step-by-step instructions tailored to the scenarios featured on our website.\n\nOur goal is simple: to empower you to master these key EA initiatives within ADOIT quickly and efficiently, ensuring you achieve your desired outcomes and demonstrate value to your stakeholders in record time.\n\nSelect the solution you are interested in to receive the relevant information:\n• Application Portfolio Management\n• Capability-based Planning\n• Enterprise Architecture Design\n• Scenario Planning\n• Technology Lifecycle Management\n• End-User Application Governance\n\nnote\n\nIf you are wondering where to start, our best practices have shown that the most effective path begins with establishing an Application Portfolio, followed by Capability-based Planning.",
+      "children": [
+        {
+          "id": "n2",
+          "title": "Solution Guide - Application Portfolio Management",
+          "url": "solution-guides/application-portfolio-management/",
+          "summary": "Introduction to the Application Portfolio Management solution in ADOIT, aimed at transforming Enterprise Architecture initiatives into actionable results.",
+          "content": "Thank you for your interest in our ADOIT solutions! We are excited to help you transform your Enterprise Architecture initiatives into actionable results.",
+          "children": [
+            {
+              "id": "n3",
+              "title": "Before You Start",
+              "url": "solution-guides/application-portfolio-management/#before-you-start",
+              "summary": "Prerequisite: Completion of the ADOIT Quick Start Guide is assumed before starting the Application Portfolio Management Solution Guide.",
+              "content": "This guide assumes that you’ve already completed the ADOIT Quick Start Guide. If your ADOIT environment is already set up, you can start directly with the Application Portfolio Management Solution Guide.",
+              "children": []
+            },
+            {
+              "id": "n4",
+              "title": "Bring Clarity to Your Application Landscape",
+              "url": "solution-guides/application-portfolio-management/#bring-clarity-to-your-application-landscape",
+              "summary": "Application Portfolio Management helps organizations clarify their application landscape by assessing applications in context of business value, technical health, and strategic relevance to enable aligned investment decisions.",
+              "content": "Your organization probably has more applications than it wants and less clarity than it needs.\n\nSome applications clearly support the business. Others slow things down, cost money, or simply stay around because no one touches them. Application Portfolio Management helps you bring order into this landscape and create a clear basis for decisions.\n\nYou don’t start by debating individual systems. You look at applications in context: business value, technical health, and strategic relevance. This makes it easier to agree on where to invest, what to modernize, and what to retire.\n\nApplication Portfolio Management creates a shared basis for business and IT and helps turn application discussions into aligned decisions.",
+              "children": []
+            },
+            {
+              "id": "n5",
+              "title": "Why Application Portfolio Management in ADOIT",
+              "url": "solution-guides/application-portfolio-management/#why-application-portfolio-management-in-adoit",
+              "summary": "ADOIT supports Application Portfolio Management with an ArchiMate-based repository, powerful views, and guided workspaces to map applications and collaboratively define investment strategies and roadmaps.",
+              "content": "Effective Application Portfolio Management requires more than lists and slides.\n\nADOIT combines an ArchiMate-based repository to map applications and their relationships with business processes, technologies, and data, powerful views to explore and understand the application landscape, and guided workspaces to assess investment strategies and define roadmaps together with business peers.\n\nThis gives you a shared and consistent foundation for portfolio decisions and helps you move from transparency to action.",
+              "children": []
+            },
+            {
+              "id": "n6",
+              "title": "How it Works in ADOIT",
+              "url": "solution-guides/application-portfolio-management/#how-it-works-in-adoit",
+              "summary": "Start Application Portfolio Management with a small prototype of representative Application Components to focus on outcomes like reports and visualizations before scaling and refining the setup.",
+              "content": "note\n\nImportant: Start with a flat list of a few representative Application Components and work in a small setup team. The initial goal is not to capture the full application landscape, but to build a working prototype together.\n\nUse this prototype to walk through the entire APM process end to end. Focus on the results you want to achieve, especially reports, visualizations, and decision support.\n\nAlong the way, you will see which information is actually needed to support these outcomes. Only then refine your setup and structure accordingly before onboarding your colleagues. This keeps the approach lightweight, outcome-driven, and easy to adapt over time.",
+              "children": [
+                {
+                  "id": "n7",
+                  "title": "Choose the lean metamodel profile as a starting point",
+                  "url": "solution-guides/application-portfolio-management/#choose-the-lean-metamodel-profile-as-a-starting-point",
+                  "summary": "Use the 'ADOIT for lean Architecture Fans' metamodel profile as a simple yet effective starting point for Application Portfolio Management, expanding it as needed based on actual requirements.",
+                  "content": "As already recommended in the Quick Start Guide choose the 'ADOIT for lean Architecture Fans' metamodel profile. It is a proven and pragmatic starting point that keeps things simple while still allowing meaningful analysis.\n\nIt simplifies the complexity of ArchiMate while ensuring you have all the objects and relations needed to fully use our offered solutions and sample models.\n\nFrom there you can expand step by step once you know which elements and relationships are actually needed for your Application Portfolio Management practice.",
+                  "children": []
+                },
+                {
+                  "id": "n8",
+                  "title": "Establish a single source of truth",
+                  "url": "solution-guides/application-portfolio-management/#establish-a-single-source-of-truth",
+                  "summary": "Establish a minimal application inventory in ADOIT by creating Application Components, assigning owners via the 'Responsible business actors' attribute, setting lifecycle states, and documenting using Business Units.",
+                  "content": "There is a lot of information you could capture in an application inventory, such as application owners, required system software, business units that use the application, supported business processes, and realized capabilities. We’ll get to that later. For now, focus on the bare minimum.\n\nSteps:\n1. Select a folder in the Object Explorer where you want to build your application inventory. In larger organizations you may use multiple folders to manage access rights. For now, stick to the structure you already defined in the Quick Start Guide.\n1. Create a first list of applications. Start with three to five Application Components you know well. These will serve as your prototype and reference for all future applications.\n\nnote\n\nIn ADOIT applications are called Application Components following ArchiMate.\n\n1. Assign an application owner to each Application Component. To do so, open the notebook of an Application Component, click on edit and fill in the relation attribute ‘Responsible business actors’ in the Chapter ‘Organisation’.\n\nnote\n\nThe initial user list was created in the Quick Start Guide. If you need additional users you can create them in the ADOIT Administration.\n\n1. Set the lifecycle state. Switch to the chapter ‘Lifecycle’ and define the Lifecycle State for each application. Most likely your prototype applications are ‘In production’.\n2. Capture the using Business Units. Document which business units use each application. Create the required business units using the element type ‘Business Actor’. Reuse the folder structure from your Quick-Start-Setup and create only what you need for your prototype applications.\n\nI think you are getting the hang of it now. Let’s focus on the outcomes next especially the reports and visualizations. We will continue shaping the modeling guidelines later.",
+                  "children": []
+                },
+                {
+                  "id": "n9",
+                  "title": "Visualize your application landscape",
+                  "url": "solution-guides/application-portfolio-management/#visualize-your-application-landscape",
+                  "summary": "Visualize the application landscape early using saved queries and ADOIT Analyses like Box-in-Box visualizations to better understand and communicate application data.",
+                  "content": "So far we have only captured a small amount of data. That is perfectly fine. Starting with visualizations early helps you understand which information you actually need.\n\nSteps:\n1. Create a simple list of all applications. The most basic report is a list of all Application Components. Create this list and share it with your colleagues. Go to ‘Find’ create the list of Application Components and click ‘Share’. Save it as a saved query with the name ‘Application Portfolio’.\n1. A list is often not the best way to communicate an application landscape. Depending on what you want to show, a visual representation can provide a much better overview.\n\nTo create and manage such views, use ADOIT Analyses.\n\nGo to Find -> Explorer -> Model Explorer and review the existing structure. Then create a folder named ‘Application Portfolio’. This is where you store your analysis.\n2. Create your first analysis. Even with limited data you can already build useful visualizations. Create an analysis model, store it in the Application Portfolio folder and select the saved query ‘Application Portfolio’ as your data source.\n3. Add a Box-in-Box visualization. Configure it as Business Actor to Application Component and use Lifecycle State as the color.\n\nYou now have your first visualization. From here you can explore additional visualization types as needed.",
+                  "children": []
+                },
+                {
+                  "id": "n10",
+                  "title": "Review the Lean Architecture Profile and add more visualizations",
+                  "url": "solution-guides/application-portfolio-management/#review-the-lean-architecture-profile-and-add-more-visualizations",
+                  "summary": "Extend the Lean Architecture Profile pragmatically to support additional visualizations using ArchiMate elements, attributes, and Groupings for lightweight classification like Gartner’s PACE layers.",
+                  "content": "Now take a closer look at the Lean Architecture Profile and extend it just enough to support additional visualizations.\n\nWith a small number of additional elements and relationships you can already create most common views such as Matrices, Gantt style timelines and further portfolio views.\n\nStay pragmatic. Add visualizations only where you are confident you can collect the required data. Follow a minimum viable architecture approach. You can always expand later.\n\nnote\n\nIf something important is missing, you can add additional concepts. This can be done using the ADOIT Administration. There you find all ArchiMate elements that can be added.\n\nFurthermore, you can add additional fields – so called Attributes – using the Property Management Component.\n\nA lightweight way to add structure without changing the metamodel is to use Groupings. In ArchiMate, Groupings work like a simple tagging mechanism.\n\nCreate elements of type Grouping, give them meaningful names, for example to classify applications according to Gartner’s PACE-Layered Application Strategy such as System of Record, System of Differentiation, or System of Innovation, and assign them to your elements using the Aggregation relationship.",
+                  "children": []
+                },
+                {
+                  "id": "n11",
+                  "title": "Keep Portfolio Data Current with Forms",
+                  "url": "solution-guides/application-portfolio-management/#keep-portfolio-data-current-with-forms",
+                  "summary": "Use ADOIT Forms to keep portfolio data current by distributing customizable surveys like the 'Application Update' template to application owners for ongoing data collection and maintenance.",
+                  "content": "At this point you might be wondering how to keep all this information up to date. ADOIT Forms is designed exactly for this purpose.\n\nADOIT Forms allows you to collect and maintain information through simple surveys. Your colleagues can contribute without needing to understand your detailed setup or ArchiMate.\n\nIn the Quick Start Guide, you already activated ADOIT Forms, including the predefined template ‘Application Update’. Review the template and check whether it covers all the information you want to keep up to date. Add questions if something is missing and remove questions if it feels too detailed.\n\nActivate the template and distribute it. For the applications you already captured the assigned ‘Responsible Business Actors’ will receive an email request. In ADOIT Forms you can track the status and manage the templates.",
+                  "children": []
+                },
+                {
+                  "id": "n12",
+                  "title": "You are ready to launch",
+                  "url": "solution-guides/application-portfolio-management/#you-are-ready-to-launch",
+                  "summary": "Before broad rollout, validate the setup with a dry run capturing additional applications and owners, then import remaining applications and distribute update forms to maintain the portfolio.",
+                  "content": "The structure is in place. Before rolling this out broadly, run a final dry run with your core setup team. Capture a few additional applications, assign application owners, and validate that the structure, forms, and visualizations work as expected.\n\nOnce you are confident, bring your application portfolio to life. Capture all remaining applications and assign the Responsible Business Actors or application owners. If you already have an application list in Excel, use the Excel import to save time. Then distribute the Application Update form to collect the data needed for your minimum viable architecture and keep the portfolio up to date.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "n13",
+              "title": "Additional tips",
+              "url": "solution-guides/application-portfolio-management/#additional-tips",
+              "summary": "Additional tips include using Application Investment Planning and Application-based Roadmap workspaces for strategy and evolution, and consulting rights management documentation if write-access control is needed.",
+              "content": "➢ To define investment strategies for your applications, use the workspace Application Investment Planning.\n\n➢ Based on those strategies, use the workspace Application-based Roadmap to further evolve and steer your portfolio.\n\n➢ If too many teams or users have write-access to applications, take a look at the rights management documentation next. Don’t let this slow you down though. In many cases, getting first results matters more than perfect permissions.",
+              "children": [
+                {
+                  "id": "n14",
+                  "title": "ArchiMate Elements and Relations for this Solution",
+                  "url": "solution-guides/application-portfolio-management/#archimate-elements-and-relations-for-this-solution",
+                  "summary": "Lists the ArchiMate elements and relationships used in the Application Portfolio Management solution when using the 'ADOIT for Lean Architecture Fans' metamodel profile.",
+                  "content": "If you use the ‘ADOIT for Lean Architecture Fans’ metamodel profile as recommended earlier in this guide, the following elements and relationships will be used for this solution:",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n15",
+          "title": "Solution Guide - Capability-based Planning",
+          "url": "solution-guides/capability-based-planning/",
+          "summary": "Introduction to the Capability-based Planning solution in ADOIT, focused on turning Enterprise Architecture initiatives into actionable results.",
+          "content": "Thank you for your interest in our ADOIT solutions! We are excited to help you transform your Enterprise Architecture initiatives into actionable results.",
+          "children": [
+            {
+              "id": "n16",
+              "title": "Before You Start",
+              "url": "solution-guides/capability-based-planning/#before-you-start",
+              "summary": "Prerequisite: Completion of the ADOIT Quick Start Guide is assumed before starting the Capability-based Planning Solution Guide.",
+              "content": "This guide assumes that you’ve already completed the ADOIT Quick Start Guide. If your ADOIT environment is already set up, you can start directly with the Capability-based Planning Solution Guide.",
+              "children": []
+            },
+            {
+              "id": "n17",
+              "title": "Plan Investments Where They Matter Most",
+              "url": "solution-guides/capability-based-planning/#plan-investments-where-they-matter-most",
+              "summary": "Capability-based Planning focuses on aligning investments with strategic capabilities by assessing current state, improvement needs, and value creation to foster shared understanding between business and IT.",
+              "content": "Capability-based Planning helps you focus on what your organization really needs to be good at. Capabilities give you a simple, business-friendly view that connects strategy, architecture, and execution without getting lost in details.\n\nYou don’t start with systems or technologies. You start with the Capabilities that matter for your strategy. You look at where they stand today, where they need to improve, and where investment will create real value.\n\nCapability-based Planning creates a shared planning foundation for business and IT. Capabilities act as a common language that makes priorities visible, discussions easier, and decisions more aligned.",
+              "children": []
+            },
+            {
+              "id": "n18",
+              "title": "Why Capability-based Planning Matters in ADOIT",
+              "url": "solution-guides/capability-based-planning/#why-capability-based-planning-matters-in-adoit",
+              "summary": "ADOIT workspaces facilitate collaborative Capability-based Planning by guiding teams through planning steps, enabling contributions from business and IT without requiring modeling expertise.",
+              "content": "Capability-based Planning works best when business and IT plan together. It’s about collaboration, not complexity.\n\nADOIT workspaces are designed to support exactly this. They guide teams through planning step by step and make it easy for everyone to contribute. Business experts bring context, IT adds architectural insight, and no one needs to be a modeling expert to participate.\n\nThe result is a lightweight, collaborative planning approach that helps teams agree on priorities, steer investments, and turn strategy into action without turning it into an IT-only project.",
+              "children": []
+            },
+            {
+              "id": "n19",
+              "title": "How it Works in ADOIT",
+              "url": "solution-guides/capability-based-planning/#how-it-works-in-adoit",
+              "summary": "",
+              "content": "",
+              "children": [
+                {
+                  "id": "n20",
+                  "title": "Choose the lean metamodel profile as a starting point",
+                  "url": "solution-guides/capability-based-planning/#choose-the-lean-metamodel-profile-as-a-starting-point",
+                  "summary": "Use the 'ADOIT for lean Architecture Fans' metamodel profile as a pragmatic starting point for Capability-based Planning, expanding it as needed based on actual practice requirements.",
+                  "content": "As already recommended in the Quick Start Guide choose the 'ADOIT for lean Architecture Fans' metamodel profile. It is a proven and pragmatic starting point that keeps things simple while still allowing meaningful analysis.\n\nIt simplifies the complexity of ArchiMate while ensuring you have all the objects and relations needed to fully use our offered solutions and sample models.\n\nFrom there you can expand step by step once you know which elements and relationships are actually needed for your Capability-based Planning practice.",
+                  "children": []
+                },
+                {
+                  "id": "n21",
+                  "title": "Map what drives your business",
+                  "url": "solution-guides/capability-based-planning/#map-what-drives-your-business",
+                  "summary": "Create a Capability Map in ADOIT by modeling Value Streams and Capabilities in an Architecture Diagram, involving workshops to refine 50–100 capabilities for a shared organizational view.",
+                  "content": "Visualize how your organization creates value – from customer request to delivery. Give everyone a shared view of your core capabilities and where they contribute most.\n\nIn this step we create the capability map. It consists of a model of type ‘Architecture Diagram’ and objects of type ‘Capabilities’. For nice look and feel you can pimp it with graphics as we did.\n\nnote\n\nIf you have already defined a value stream or created a corresponding model, you can use it right away in the following steps.\n\nSteps:\n1. Open the Objects Explorer. Choose / create a folder where you want to store your Capabilities.\n2. Open the Model Explorer. Choose / create a folder where you want to store your Capability Map model and create a ‘Architecture Diagram’ via the ‘New’ tab in the toolbar. Give your new Capability Map model a name.\n3. Open your Capability Map model and start placing Value Streams and Capabilities on the modeling canvas.\n4. Plan for about 50–100 Capabilities in total (that’s typical for many organizations).\n5. Run short workshops with your colleagues to collect and refine your Capabilities together.\n6. Use generic Capability Maps as inspiration if you like - but the best results come from building a map that fits your organization.\n\nnote\n\nIf you want a quick walkthrough, check out our online training.\n\nFor ArchiMate experts…",
+                  "children": []
+                },
+                {
+                  "id": "n22",
+                  "title": "Reveal what powers each capability",
+                  "url": "solution-guides/capability-based-planning/#reveal-what-powers-each-capability",
+                  "summary": "Link Capabilities to supporting systems, processes, and people to understand dependencies and impacts, with insights growing as more elements are connected over time.",
+                  "content": "See how each capability is supported by systems, processes, and people. Understand dependencies and uncover where change will have the biggest impact.\n\nFor now, there’s not much to see here.\n\nThe insights will automatically grow once you start linking other Elements, such as Application Components or Processes, to your Capabilities.\n\nAt this stage, it’s enough to know that this information will become more valuable as your architecture evolves.",
+                  "children": []
+                },
+                {
+                  "id": "n23",
+                  "title": "Pinpoint what needs improvement",
+                  "url": "solution-guides/capability-based-planning/#pinpoint-what-needs-improvement",
+                  "summary": "Assess capabilities' performance, business fit, and strategic relevance using the 'Classification' chapter and heatmaps; communicate results via the Capability Map and use Scenario Workspaces for investment planning.",
+                  "content": "Evaluate each capability’s performance, business fit, and strategic relevance in the object's notebook under the chapter 'Classification'. Use heatmaps to quickly identify strengths, weaknesses, and high-priority areas.\n\nCommunicate the results clearly. The best way to do this is by using your Capability Map. The more often you use it, the more familiar it becomes to your peers.\n\nOver time, the Capability Map turns into a shared language. Your colleagues will start to trust it, use it, and rely on it as the joint planning basis for roadmap and investment decisions.\n\nSteps:\n1. Open Scenario Workspaces.\n2. Create a Capability Investment Planning workspace.\n3. Invite colleagues to join.\n4. Add Capabilities from your repository, assess Strategic Importance and Capability Maturity, and set the Investment Strategy.\n5. Show the results in your Capability Map using color coding with the attribute ‘Strategic importance’.",
+                  "children": []
+                },
+                {
+                  "id": "n24",
+                  "title": "Plan the way forward",
+                  "url": "solution-guides/capability-based-planning/#plan-the-way-forward",
+                  "summary": "Develop actionable plans by creating Capability-based Roadmap workspaces to define changes, assign ownership, and track requirements collaboratively over defined planning timeframes.",
+                  "content": "Define what needs to change, assign ownership, and outline the improvements required. Move from analysis to a clear, actionable plan.\n\nSteps:\n1. Open Scenario Workspaces.\n2. Create a workspace of type Capability-based Roadmap.\n3. Define suitable planning timeframes. In most cases, quarterly planning works well.\n4. Invite colleagues to join.\n5. Work through the workspace together with your subject matter experts:\n1. Add the relevant Capabilities\n2. Define Requirements\n3. Evaluate importance, priorities, and dependencies\n\nnote\n\nIf you’re working with many Capabilities, it can make sense to create separate workspaces per Capability or Capability group. To keep things simple, this guide explains the steps using a single roadmapping workspace.\n\n1. Track your requirements",
+                  "children": []
+                },
+                {
+                  "id": "n25",
+                  "title": "ArchiMate Elements and Relations for this Solution",
+                  "url": "solution-guides/capability-based-planning/#archimate-elements-and-relations-for-this-solution",
+                  "summary": "Lists the ArchiMate elements and relationships used in the Capability-based Planning solution when using the 'ADOIT for Lean Architecture Fans' metamodel profile.",
+                  "content": "If you use the ‘ADOIT for Lean Architecture Fans’ metamodel profile as recommended earlier in this guide, the following elements and relationships will be used for this solution:",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n26",
+          "title": "Solution Guide - Enterprise Architecture Design",
+          "url": "solution-guides/enterprise-architecture-design/",
+          "summary": "Introduction to the Enterprise Architecture Design solution in ADOIT, aimed at turning Enterprise Architecture initiatives into actionable results.",
+          "content": "Thank you for your interest in our ADOIT solutions! We are excited to help you transform your Enterprise Architecture initiatives into actionable results.",
+          "children": [
+            {
+              "id": "n27",
+              "title": "Before You Start",
+              "url": "solution-guides/enterprise-architecture-design/#before-you-start",
+              "summary": "Prerequisite: Completion of the ADOIT Quick Start Guide is assumed before starting the Enterprise Architecture Design Solution Guide.",
+              "content": "This guide assumes that you’ve already completed the ADOIT Quick Start Guide. If your ADOIT environment is already set up, you can start directly with the Enterprise Architecture Design Solution Guide.",
+              "children": []
+            },
+            {
+              "id": "n28",
+              "title": "Design How Strategy Gets Executed",
+              "url": "solution-guides/enterprise-architecture-design/#design-how-strategy-gets-executed",
+              "summary": "Enterprise Architecture Design focuses on modeling Target Operating Models that connect capabilities with people, processes, applications, and governance to make strategy executable and explicit.",
+              "content": "Enterprise Architecture Design is about shaping how an organization actually works so strategy gets executed. In practice, this means designing (Target) Operating Models that describe how capabilities are brought to life through people, processes, applications, and governance.\n\nOperating models are the architecture of execution. They define how decisions are made, how work flows, and how value is created day to day. The challenge is making the operating model explicit and turning it into something that can be discussed, designed, and evolved deliberately instead of remaining implicit and fragmented across documents and tools.\n\nThis is exactly where ADOIT comes in. With ADOIT, operating models become visible and tangible. You can model today’s setup, design target operating models, and connect them directly to strategy, capabilities, and execution-relevant elements. Instead of debating abstract concepts, you work with concrete architectural structures.",
+              "children": []
+            },
+            {
+              "id": "n29",
+              "title": "Why Enterprise Architecture Design in ADOIT",
+              "url": "solution-guides/enterprise-architecture-design/#why-enterprise-architecture-design-in-adoit",
+              "summary": "Using ADOIT for Architecture Design reveals improvement opportunities, dependencies, and supports reuse by making operating models visible and enabling informed execution decisions.",
+              "content": "Architecture Design helps you move from abstract strategy to concrete, executable structures by making operating models visible and actionable.\n• Clear improvement opportunities\n\nBy breaking capabilities down into their internal structure, you can clearly see where things don’t work as intended. This helps you identify weak spots and derive well-founded strategic requirements that form a solid foundation for effective strategic planning.\n• Visible dependencies and impact\n\nModeling capabilities in ArchiMate makes dependencies and mutual influences between processes, applications, data, and roles explicit. You can see how changes propagate, understand their impact, and use this insight to strengthen business cases and plan changes with greater confidence.\n• Reuse and better execution decisions\n\nBy reusing architectural elements across capabilities, you make shared resources transparent and avoid redundancy. This supports better prioritization, more informed decisions, and coordinated execution across the organization.",
+              "children": []
+            },
+            {
+              "id": "n30",
+              "title": "How it Works in ADOIT",
+              "url": "solution-guides/enterprise-architecture-design/#how-it-works-in-adoit",
+              "summary": "",
+              "content": "",
+              "children": [
+                {
+                  "id": "n31",
+                  "title": "Choose the lean metamodel profile as a starting point",
+                  "url": "solution-guides/enterprise-architecture-design/#choose-the-lean-metamodel-profile-as-a-starting-point",
+                  "summary": "Start Enterprise Architecture Design with the 'ADOIT for Lean Architecture Fans' metamodel profile to keep modeling simple yet effective, expanding as needed based on practice requirements.",
+                  "content": "As already recommended in the ADOIT Quick Start Guide choose the ‘ADOIT for Lean Architecture Fans’ metamodel profile. It is a proven and pragmatic starting point that keeps things simple while still allowing meaningful analysis.\n\nIt simplifies the complexity of ArchiMate while ensuring you have all the objects and relations needed to fully use our offered solutions and sample models.\n\nFrom there you can expand step by step once you know which elements and relationships are actually needed for your Enterprise Architecture Design practice.",
+                  "children": []
+                },
+                {
+                  "id": "n32",
+                  "title": "Visualize how your business creates value",
+                  "url": "solution-guides/enterprise-architecture-design/#visualize-how-your-business-creates-value",
+                  "summary": "Create a Capability Map by modeling Value Streams and Capabilities in an Architecture Diagram to visualize how the business creates value, involving workshops to refine the map collaboratively.",
+                  "content": "note\n\nThis section is also covered in the Capability-Based Planning Solution Guide Capability-based Planning Solution Guide.\n\nVisualize how your organization creates value – from customer request to delivery. Give everyone a shared view of your core capabilities and where they contribute most.\n\nIn this step we create the capability map. It consists of a model of type ‘Architecture Diagram’ and objects of type ‘Capabilities’. For nice look and feel you can pimp it with graphics as we did.\n\nSteps:\n1. Open the Objects Explorer. Choose / create a folder where you want to store your Capabilities.\n2. Open the Model Explorer. Choose / create a folder where you want to store your Capability Map model and create a ‘Architecture Diagram’ via the ‘New’ tab in the toolbar. Give your new Capability Map model a name.\n3. Open your Capability Map model and start placing Value Streams and Capabilities on the modeling canvas.\n4. Plan for about 50–100 Capabilities in total (that’s typical for many organizations).\n5. Run short workshops with your colleagues to collect and refine your Capabilities together.\n6. Use generic Capability Maps as inspiration if you like - but the best results come from building a map that fits your organization.\n\nnote\n\nIf you want a quick walkthrough, check out our online training.\n\nFor ArchiMate experts…",
+                  "children": []
+                },
+                {
+                  "id": "n33",
+                  "title": "Spot opportunities at a glance",
+                  "url": "solution-guides/enterprise-architecture-design/#spot-opportunities-at-a-glance",
+                  "summary": "Evaluate capabilities using heatmaps for performance and strategic relevance, communicate via the Capability Map, and use Scenario Workspaces for investment planning to identify opportunities.",
+                  "content": "note\n\nThis section is also covered in the Capability-Based Planning Solution Guide Capability-based Planning Solution Guide.\n\nEvaluate each capability’s performance, business fit, and strategic relevance. Use heatmaps to quickly identify strengths, weaknesses, and high-priority areas.\n\nCommunicate the results clearly. The best way to do this is by using your Capability Map. The more often you use it, the more familiar it becomes to your peers.\n\nOver time, the Capability Map turns into a shared language. Your colleagues will start to trust it, use it, and rely on it as the joint planning basis for roadmap and investment decisions.\n\nSteps:\n1. Open Scenario Workspaces.\n2. Create a Capability Investment Planning workspace.\n3. Invite colleagues to join.\n4. Add Capabilities from your repository, assess Strategic Importance and Capability Maturity, and set the Investment Strategy.\n5. Show the results in your Capability Map using color coding with the attribute ‘Strategic importance’.",
+                  "children": []
+                },
+                {
+                  "id": "n34",
+                  "title": "Understand what powers your business",
+                  "url": "solution-guides/enterprise-architecture-design/#understand-what-powers-your-business",
+                  "summary": "Develop operating models per Capability by modeling processes, roles, data, applications, and technology with consistent structure and reuse existing elements to understand what drives business performance.",
+                  "content": "Drill down into any capability to see the processes, systems, and people behind it. Reveal what drives or hinders performance and focus on what really moves the needle.\n\nnote\n\nStart small. Begin by creating operating models for two to three Capabilities. Use this first iteration to learn what really matters and to define a common structure for all operating model diagrams, for example consistent swimlanes and a consistent set of element types.\n\nBe mindful of the level of detail. Avoid overloading the models with too much detail and focus on what is relevant for understanding and decision-making. Keep in mind that these models need to stay up to date over time.\n\nFrom the start, think about ownership. Each operating model should be easy to hand over to a Capability Owner, Domain Architect, or a similar role who can maintain and evolve it going forward.\n\nSteps:\n1. Create one operating model per Capability.\n\nStart by creating one Architecture model for each Capability. In the Model Explorer, use a single folder called ‘Operating Models’ for your first iteration. Keeping everything in one place helps you move fast and keeps things simple. You can refine the folder structure later, for example to support rights management or reflect your organizational setup.\n2. Prepare where architectural elements are stored\n\nOperating models typically include business processes, roles, data objects, applications, and sometimes technology elements. Use the object folder structure predefined in the Quick Start Guide as a starting point. This gives you a clean and consistent setup without overthinking it upfront.\n3. Create the Architecture Design model\n\nCreate a new model of type ‘Architecture Diagram’. This model represents the operating model for a single Capability.\n4. Link the model to its Capability\n\nOpen the notebook of the Capability and assign the Architecture Diagram you just created. This ensures a clear and explicit connection between the Capability and its operating model.\n5. Structure the model with swimlanes\n\nAdd swimlanes to structure your model. A proven starting point is the classic BADT structure: Business, Application, Data, Technology. This keeps the model readable and helps stakeholders orient themselves quickly.\n6. Add and reuse architectural elements\n\nUse objects that you have already created in other EA initiatives or solutions (such as Application Portfolio Management). It is essential to avoid creating duplicates within your repository at all costs. Add processes, data objects, application components, and other relevant elements to describe how the Capability works. Focus on consistency and reuse. Many elements used in one Capability will also be relevant for others.\n\nnote\n\nTips and Tricks for graphical modelling:\n• Objects created directly in diagrams are automatically stored in the Object Explorer under personal > [your name] . Make sure to move them to the appropriate folder in your structure. Avoid leaving objects in the personal folder.\n• Objects can be reused across multiple diagrams. Deleting an object from a diagram only removes it from that diagram. The object itself remains in the Object Explorer.\n• Use SHIFT + DELETE if you want to remove an object completely from the repository, not just from a diagram.\n• Before creating a new object, check whether it already exists. If duplicates occur, you can use Merge objects. Be aware that outgoing relationships are merged, while incoming relationships are kept only for the remaining object.\n\nnote\n\nIf you already use ADOIT for Application Portfolio Management or Capability-based Planning, reuse existing elements instead of creating new ones. This strengthens consistency across your architecture and increases the value of all related analyses.",
+                  "children": []
+                },
+                {
+                  "id": "n35",
+                  "title": "ArchiMate Elements and Relations for this Solution",
+                  "url": "solution-guides/enterprise-architecture-design/#archimate-elements-and-relations-for-this-solution",
+                  "summary": "Lists the ArchiMate elements and relationships used in the Enterprise Architecture Design solution when using the 'ADOIT for Lean Architecture Fans' metamodel profile.",
+                  "content": "If you use the ‘ADOIT for Lean Architecture Fans’ metamodel profile as recommended earlier in this guide, the following elements and relationships will be used for this solution:",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n36",
+          "title": "Solution Guide – Scenario Planning",
+          "url": "solution-guides/scenario-planning/",
+          "summary": "Introduction to the Scenario Planning solution in ADOIT, designed to help transform Enterprise Architecture initiatives into actionable results.",
+          "content": "Thank you for your interest in our ADOIT solutions! We are excited to help you transform your Enterprise Architecture initiatives into actionable results.",
+          "children": [
+            {
+              "id": "n37",
+              "title": "Before You Start",
+              "url": "solution-guides/scenario-planning/#before-you-start",
+              "summary": "Prerequisite: Completion of the ADOIT Quick Start Guide is assumed before starting the Scenario Planning Solution Guide.",
+              "content": "This guide assumes that you’ve already completed the ADOIT Quick Start Guide. If your ADOIT environment is already set up, you can start directly with the Scenario Planning Solution Guide.",
+              "children": []
+            },
+            {
+              "id": "n38",
+              "title": "Design and Compare Future Architectures With Confidence",
+              "url": "solution-guides/scenario-planning/#design-and-compare-future-architectures-with-confidence",
+              "summary": "Scenario Planning in ADOIT enables designing, comparing, and evaluating multiple future architecture scenarios without affecting the current baseline to support informed decision-making.",
+              "content": "With Scenario Planning in ADOIT, you can design, compare, and evaluate future architectures without touching your current baseline. Create alternative scenarios, explore their impact, and make informed decisions based on a clear and shared view of the architecture.\n\nScenario Planning helps you work through complex architecture decisions step by step. Instead of committing too early, you create and compare multiple future options and see how they differ in terms of cost, risk, dependencies, and long-term impact.\n\nIn ADOIT, each option is modeled as its own scenario. This gives business and IT a common language to discuss alternatives, understand trade-offs, and agree on the best way forward.",
+              "children": []
+            },
+            {
+              "id": "n39",
+              "title": "Why Scenario Planning Matters in ADOIT",
+              "url": "solution-guides/scenario-planning/#why-scenario-planning-matters-in-adoit",
+              "summary": "Scenario Planning provides a trusted architecture view allowing reuse and modification of elements in scenarios to compare alternatives and agree on directions before updating the baseline.",
+              "content": "ADOIT provides a central, trusted view of your architecture. Scenario Planning adds a dedicated space to think ahead without putting that baseline at risk.\n\nYou can reuse existing Elements, add new ones, or plan decommissioning while keeping the agreed architecture unchanged. This makes it easy to compare alternatives, discuss trade-offs, and agree on the best direction before anything is released into the curated repository.",
+              "children": []
+            },
+            {
+              "id": "n40",
+              "title": "Typical Scenario Planning Use Cases",
+              "url": "solution-guides/scenario-planning/#typical-scenario-planning-use-cases",
+              "summary": "Common Scenario Planning use cases include evaluating sourcing options, modernization strategies, landscape simplification, deployment models, data architecture variants, and integration/API strategies.",
+              "content": "• Build, Buy, or Combine: compare different sourcing options for delivering a new solution.\n• Modernize or Replace: decide whether existing applications should be improved, replaced, or retired.\n• Reuse, Consolidate, or Introduce: explore options to reduce redundancy and simplify the application landscape.\n• On-Premise, Cloud, or Hybrid: evaluate different deployment models and their business impact.\n• Data Architecture Variants: compare alternative approaches to managing and using data.\n• Integration and API Strategies: Choose the most suitable way to connect systems and services.",
+              "children": []
+            },
+            {
+              "id": "n41",
+              "title": "How it Works in ADOIT",
+              "url": "solution-guides/scenario-planning/#how-it-works-in-adoit",
+              "summary": "",
+              "content": "",
+              "children": [
+                {
+                  "id": "n42",
+                  "title": "Choose the lean metamodel profile as a starting point",
+                  "url": "solution-guides/scenario-planning/#choose-the-lean-metamodel-profile-as-a-starting-point",
+                  "summary": "Use the 'ADOIT for Lean Architecture Fans' metamodel profile as a simple and effective starting point for Scenario Planning, expanding it as needed based on actual scenario requirements.",
+                  "content": "As already recommended in the ADOIT Quick Start Guide choose the ‘ADOIT for Lean Architecture Fans’ metamodel profile. It is a proven and pragmatic starting point that keeps things simple while still allowing meaningful analysis.\n\nIt simplifies the complexity of ArchiMate while ensuring you have all the objects and relations needed to fully use our offered solutions and sample models.\n\nFrom there you can expand step by step once you know which elements and relationships are actually needed for your scenario planning practice.",
+                  "children": []
+                },
+                {
+                  "id": "n43",
+                  "title": "Set the Transformation Scope",
+                  "url": "solution-guides/scenario-planning/#set-the-transformation-scope",
+                  "summary": "Guide to defining the transformation scope in ADOIT by selecting or creating folders and architecture models to represent baseline scenarios, reusing existing elements via drag and drop or the Architecture Dependency Modeler.",
+                  "content": "Identify the part of the architecture you want to change or improve, such as the applications or technologies that support a specific capability or business process.\n\nSteps:\n1. In the Model Explorer, select or create a folder to store your scenario alternatives.\n2. Create one folder for your current planning scenario.\n3. Each scenario alternative will be contained in one model. Therefore, create an architecture model and name it ‘Baseline - [Scenario Name] ’\n4. Add the relevant architecture elements that define the scope of your Scenario:• Use drag and drop from the Object Explorer and/or\n• Leverage the Architecture Dependency Modeler.\n\nnote\n\nThis guide assumes that the relevant Elements of the baseline architecture already exist in the repository and can be reused via drag and drop. If no baseline is available yet, document it first before continuing with Scenario Planning.",
+                  "children": []
+                },
+                {
+                  "id": "n44",
+                  "title": "Create Alternative Solutions",
+                  "url": "solution-guides/scenario-planning/#create-alternative-solutions",
+                  "summary": "Instructions for creating multiple scenario alternatives in ADOIT by brainstorming options, documenting them with Note elements, and duplicating baseline diagrams with corresponding Plateaus for evaluation.",
+                  "content": "Define multiple scenarios that represent different ways of addressing the business need. Each scenario captures a distinct solution option that can be evaluated and discussed. We use the ArchiMate plateaus to evaluate the scenarios.\n\nSteps:\n1. Start brainstorming different scenario options.\n\nnote\n\nInsert an Element of type Note and document all your options. Try to consolidate them into a small set of relevant options that you want to explore in more detail.\n\n1. Copy/paste the diagram ‘Baseline - [Scenario Name] ’ and name it ‘Scenario Option 1: [Scenario Name] ’. Add a Plateau with the corresponding name ‘Scenario Option 1: [Scenario Name] ’.\n\nnote\n\nYou will create diagrams for all remaining Plateaus later in this guide.",
+                  "children": []
+                },
+                {
+                  "id": "n45",
+                  "title": "Shape the Target Architecture",
+                  "url": "solution-guides/scenario-planning/#shape-the-target-architecture",
+                  "summary": "Steps to design target architectures by labeling baseline elements as changed or decommissioned, creating new Planning Objects and Planning Relations, and using color coding to highlight modifications while preserving the baseline.",
+                  "content": "Design the Scenario by labeling baseline Elements that will be changed or decommissioned, and by creating and linking new Elements where needed.\n\nAll of this happens while the baseline architecture remains untouched for now.\n\nSteps:\n1. Starting from the baseline architecture, identify elements that need to be changed or are no longer needed. To this end find the objects in the object explorer and drag&drop them into the diagram. Note, relationships between the objects will be added automatically to the diagram. Label them via the context menu using xxx | changed or xxx | decommissioned.\n\nnote\n\nTips and Tricks for graphical modelling:\n• Objects created directly in diagrams are automatically stored in the Object Explorer under personal > [your name] . Make sure to move them to the appropriate folder in your structure. Avoid leaving objects in the personal folder.\n• Objects can be reused across multiple diagrams. Deleting an object from a diagram only removes it from that diagram. The object itself remains in the Object Explorer.\n• Use SHIFT + DELETE if you want to remove an object completely from the repository, not just from a diagram.\n• Before creating a new object, check whether it already exists. If duplicates occur, you can use Merge objects. Be aware that outgoing relationships are merged, while incoming relationships are kept only for the remaining object.\n\n1. Identify elements that are not yet part of the baseline architecture.\n2. Create them using the modeling class Planning Object and assign the appropriate element type in the context menu, for example Application Component, Application Interface, or Data Object.\n3. Create new relationships using Planning Relations. Select the correct relationship type via the context menu.\n4. Mark relationships from the baseline architecture that are no longer needed as to be decommissioned.\n\nnote\n\nUse color coding to visually highlight changed, new, or decommissioned elements and relations.\n\n1. Repeat 1-5 for all remaining Plateaus.",
+                  "children": []
+                },
+                {
+                  "id": "n46",
+                  "title": "Compare Scenarios and Decide",
+                  "url": "solution-guides/scenario-planning/#compare-scenarios-and-decide",
+                  "summary": "Process to compare scenario options side by side in ADOIT by assessing business, technology, and cost fitness in Plateau notebooks, creating analyses with charts, and setting scenario statuses to Proposed, Selected, or Rejected.",
+                  "content": "Compare scenarios side by side to understand their impact on business value, costs, risks, and dependencies, and decide on the preferred option. Capture the resulting architecture decisions, including context, alternatives, and rationale.\n\nSteps:\n1. Analyze each documented Scenario option.\n2. Into each scenario diagram, add an object of type Plateau, briefly summarize the option, and assess it using the following criteria:\n• Business fitness\n• Technology fitness\n• Cost fitness\n\nTo do this, open the notebook of the Plateau element and enter your assessment data in the chapter ‘Classification’.\n3. Create an Analysis and store it in your scenario folder in the Explorer.\n4. Add all your Plateaus and use charts to analyze the options and identify the best choice.\n5. Open the notebooks of the Plateaus and set their ‘Scenario Status’ to Proposed, Selected, or Rejected.",
+                  "children": []
+                },
+                {
+                  "id": "n47",
+                  "title": "Release the Chosen Scenario",
+                  "url": "solution-guides/scenario-planning/#release-the-chosen-scenario",
+                  "summary": "Guidance on validating and releasing the chosen scenario into the baseline architecture by performing model validation, manually updating objects and relationships during implementation to maintain flexibility.",
+                  "content": "Validate the selected scenario, check it against your ArchiMate modeling guidelines, and then release it into the agreed baseline architecture to make it the new baseline.\n\nSteps:\n1. Open the chosen scenario diagram and perform model validation. Correct all findings.\n2. After the final decision, start creating new objects and relationships, and delete existing elements that are no longer relevant, as the implementation progresses.\n\nnote\n\nThis step is intentionally done manually. It gives you the flexibility to enrich the architecture with the right level of detail and to take action on required deviations during implementation, without overloading the Scenario with unnecessary information.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n48",
+          "title": "Solution Guide - Technology Lifecycle Management",
+          "url": "solution-guides/technology-lifecycle-management/",
+          "summary": "Introduction expressing gratitude and enthusiasm for supporting Enterprise Architecture initiatives with ADOIT solutions.",
+          "content": "Thank you for your interest in our ADOIT solutions! We are excited to help you transform your Enterprise Architecture initiatives into actionable results.",
+          "children": [
+            {
+              "id": "n49",
+              "title": "Before You Start",
+              "url": "solution-guides/technology-lifecycle-management/#before-you-start",
+              "summary": "Prerequisite note stating that users should have completed the ADOIT Quick Start Guide before starting the Technology Lifecycle Management Solution Guide.",
+              "content": "This guide assumes that you’ve already completed the ADOIT Quick Start Guide. If your ADOIT environment is already set up, you can start directly with the Technology Lifecycle Management Solution Guide.",
+              "children": []
+            },
+            {
+              "id": "n50",
+              "title": "Manage Your IT Landscape with Confidence",
+              "url": "solution-guides/technology-lifecycle-management/#manage-your-it-landscape-with-confidence",
+              "summary": "Overview of Technology Lifecycle Management emphasizing proactive risk management, transparency of technology dependencies, and maintaining a modern, secure IT landscape by tracking end-of-life and ownership.",
+              "content": "Technology moves fast. What is standard today might be unsupported and risky tomorrow. Outdated technologies increase technical debt, cause unnecessary costs, and slow down your ability to innovate. Technology Lifecycle Management helps you bring transparency to your stack and manage risks proactively before they become urgent.\n\nIt is not just about keeping lists of software and servers. It is about understanding which critical applications rely on which technologies. By tracking end-of-life dates and establishing clear ownership, you build a solid foundation to retire legacy systems on time and keep your IT landscape modern, secure, and future-ready.",
+              "children": []
+            },
+            {
+              "id": "n51",
+              "title": "Why Technology Lifecycle Management in ADOIT",
+              "url": "solution-guides/technology-lifecycle-management/#why-technology-lifecycle-management-in-adoit",
+              "summary": "Explanation of ADOIT's advantage in Technology Lifecycle Management by integrating technology and business architecture, enabling impact analysis, AI-supported lifecycle data lookup, and strategic decision-making.",
+              "content": "Effective technology management requires more than isolated spreadsheets. ADOIT connects your technology landscape directly to your business architecture. You can instantly see the impact of an expiring database version on your applications and business processes. With features like AI-supported lookup for lifecycle data and integrated roadmaps, you turn simple administration into strategic foresight.\n\nThis empowers you to uncover hidden risks, coordinate updates together with application owners, and make smarter investment decisions based on reliable data.",
+              "children": []
+            },
+            {
+              "id": "n52",
+              "title": "How it Works in ADOIT",
+              "url": "solution-guides/technology-lifecycle-management/#how-it-works-in-adoit",
+              "summary": "Recommendation to establish an Application Portfolio first, at least listing Application Components, to effectively map dependencies and risks in Technology Lifecycle Management within ADOIT.",
+              "content": "Best Practice:\n\nTo maximize the value of Technology Lifecycle Management, we recommend having your Application Portfolio established first. At a minimum, a list of Application Components is required to map dependencies and identify risks effectively.\n\nYou can find more information on Application Portfolio Management in ADOIT in our dedicated Solution Guide.",
+              "children": [
+                {
+                  "id": "n53",
+                  "title": "Choose the lean metamodel profile as a starting point",
+                  "url": "solution-guides/technology-lifecycle-management/#choose-the-lean-metamodel-profile-as-a-starting-point",
+                  "summary": "Advice to start with the 'ADOIT for Lean Architecture Fans' metamodel profile for simplicity and meaningful analysis, expanding it as needed for Technology Lifecycle Management.",
+                  "content": "As already recommended in the ADOIT Quick Start Guide choose the ‘ADOIT for Lean Architecture Fans’ metamodel profile. It is a proven and pragmatic starting point that keeps things simple while still allowing meaningful analysis.\n\nIt simplifies the complexity of ArchiMate while ensuring you have all the objects and relations needed to fully use our offered solutions and sample models.\n\nFrom there you can expand step by step once you know which elements and relationships are actually needed for your Technology Lifecycle Management practice.",
+                  "children": []
+                },
+                {
+                  "id": "n54",
+                  "title": "Establish a clear technology (reference) model",
+                  "url": "solution-guides/technology-lifecycle-management/#establish-a-clear-technology-reference-model",
+                  "summary": "Instructions to create a scalable technology reference model by organizing technologies into hierarchical domains using Grouping elements and assigning ownership for structured IT landscape management.",
+                  "content": "Bring structure to your IT landscape by defining a scalable reference model. By organizing technologies into logical domains and assigning clear ownership, you create a solid foundation for smarter architectural decisions. This results in a highly organized tech landscape where every technology has a clear place and purpose.\n\nSteps:\n1. Create the folder structure. Open the Object Explorer and create a new folder named “Technology Domains”.\n2. Define your domains. We recommend defining technology domains on two levels to maintain a clean overview (e.g., Level 1: \"Data Storage\", Level 2: \"Relational Database Systems\").\n3. Create folders for each high-level technology domain.\n4. Create the technology domains. Use the element type “Grouping” to represent them. This allows you to cluster specific technologies later.",
+                  "children": []
+                },
+                {
+                  "id": "n55",
+                  "title": "Get full visibility across IT",
+                  "url": "solution-guides/technology-lifecycle-management/#get-full-visibility-across-it",
+                  "summary": "Steps to achieve full IT visibility by collecting technologies as System Software elements at major version level, linking them to Application Components, and aggregating them under technology domains.",
+                  "content": "The real value of technology management lies in understanding dependencies. Connect applications with the technologies they rely on to visualize and understand dependencies. This step improves data accuracy, uncovers hidden risks, and provides accurate technology mapping across your entire architecture.\n\nSteps:\n1. Collect your technologies. Within your domain folders, collect all technologies on level of major version. Use elements of type “System Software” to define the technology products in use.\n\nnote\n\nKeep it lean: Define technologies only on the level of the Major Version (e.g., \"Oracle 19c\"). Do not go deeper (e.g., patches or minor builds). Detailed versioning is typically irrelevant for strategic EA activities and causes unnecessary maintenance work.\n\n1. Fill in the essentials. For each System Software element, fill-in at minimum:• Name: Include the Major Version.\n• Responsible Person: Who manages this technology?\n• Application Components that use this System Software via Relation “System Software -> serves -> Application Component”.\n• Add incoming relations “aggregates” from Grouping that represents the lowest level of technology domain.",
+                  "children": []
+                },
+                {
+                  "id": "n56",
+                  "title": "Stay ahead of end-of-life",
+                  "url": "solution-guides/technology-lifecycle-management/#stay-ahead-of-end-of-life",
+                  "summary": "Guidance on tracking technology lifecycles using AI-supported End-of-Life Lookup and visualizing expiry dates with Box-in-Box charts and color coding to proactively manage technology risks.",
+                  "content": "Don't let expiration dates surprise you. Track lifecycles using ADOIT’s intelligent features to achieve Technology Lifecycle Control. By using AI-supported lookups, you can track expiry dates, plan replacements before they become urgent, ensuring proactive risk mitigation and reducing downtime.\n\nSteps:\n1. Enrich with AI. Use the AI-based ‘End-of-Life Lookup’ in the notebook of an object. It will not only find defined EOL dates from online sources but also provide a prognosis on upcoming EOL dates based on historical data patterns.\n2. Create an analysis to track expiry dates via colour coding:\n• Create a search that retrieves your first level groupings (Domains) restricted to the relevant folders.\n• From your search results, create a Box-in-Box visualization to show when technologies will reach their end-of-life.\n• For the Box-in-Box visualization use the following hierarchy: First level Groupings (Domains) → Groupings (Sub-domains) → System Software.\n• Use colour coding to visualize expiry dates.",
+                  "children": []
+                },
+                {
+                  "id": "n57",
+                  "title": "See what’s at risk",
+                  "url": "solution-guides/technology-lifecycle-management/#see-whats-at-risk",
+                  "summary": "Method to identify business risks by analyzing applications dependent on expiring technologies using searches and Box-in-Box visualizations grouped by Application Components or Capabilities.",
+                  "content": "Understanding the technology is one thing; understanding the business impact is another. Identify which applications depend on expiring technologies to ensure Service Continuity. This view prioritizes updates and creates necessary Application Risk Awareness among stakeholders.\n\nSteps:\n1. Create an analysis to visualize the expiry dates via colour coding from the perspective of your application components:\n\n- [Create a search](https://docs.boc-group.com/adoit/en/docs/user_manual/searc-000000/#searc-E00000) that retrieves your application components restricted to the relevant folders.- From your search results, create a [Box-in-Box visualization](https://docs.boc-group.com/adoit/en/docs/user_manual/modwv-00000/#modwv-01500) to show which technologies will reach their end-of-life that serve your application components.- For the [Box-in-Box visualization](https://docs.boc-group.com/adoit/en/docs/user_manual/modwv-00000/#modwv-01500) use the following hierarchy: Application Component → served by → System Software.- Use colour coding to visualize expiry dates.\n2. Alternatively, you can also visualize the applications and underlying system softwares grouped by capabilities: Capability → realized by → Application Component → served by → System Software.",
+                  "children": []
+                },
+                {
+                  "id": "n58",
+                  "title": "Keep the data updated",
+                  "url": "solution-guides/technology-lifecycle-management/#keep-the-data-updated",
+                  "summary": "Approach to maintain data quality via distributed maintenance using ADOIT Forms for technology requests, regular data updates by owners, and application dependency documentation by owners.",
+                  "content": "Technology portfolios change constantly. To maintain Sustainable Data Quality, you need to distribute the maintenance effort. Use ADOIT Forms to establish Distributed Maintenance, allowing experts and application owners to contribute updates easily without needing deep repository knowledge.\n\nSteps:\n1. Request new technologies. Use the predefined form “Request a new technology” to allow colleagues to suggest new technologies for the portfolio. You can find the predefined forms under “Templates” and \"Import best practice templates”.\n2. Review regularly. Use the predefined form “Technology: Data Update” to ask technology owners to review and update versions and lifecycle dates on a regular basis.\n3. Know what's in use. Use the predefined form “Application: Data Update” (as mentioned in the Application Portfolio Management solution guide) and ensure the section for selecting the underlying Technologies is active. This lets Application Owners document their own dependencies.",
+                  "children": []
+                },
+                {
+                  "id": "n59",
+                  "title": "ArchiMate Elements and Relations for this Solution",
+                  "url": "solution-guides/technology-lifecycle-management/#archimate-elements-and-relations-for-this-solution",
+                  "summary": "Reference to ArchiMate elements and relationships used in the Technology Lifecycle Management solution when using the recommended lean metamodel profile.",
+                  "content": "If you use the ‘ADOIT for Lean Architecture Fans’ metamodel profile as recommended earlier in this guide, the following elements and relationships will be used for this solution:",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n60",
+          "title": "Solution Guide - End-User Application Governance",
+          "url": "solution-guides/end-user-application-governance/",
+          "summary": "Introduction expressing gratitude and enthusiasm for supporting Enterprise Architecture initiatives with ADOIT solutions focused on End-User Application Governance.",
+          "content": "Thank you for your interest in our ADOIT solutions! We are excited to help you transform your Enterprise Architecture initiatives into actionable results.",
+          "children": [
+            {
+              "id": "n61",
+              "title": "Before You Start",
+              "url": "solution-guides/end-user-application-governance/#before-you-start",
+              "summary": "Prerequisite note stating that users should have completed the ADOIT Quick Start Guide before starting the End-User Application Governance Solution Guide.",
+              "content": "This guide assumes that you’ve already completed the ADOIT Quick Start Guide. If your ADOIT environment is already set up, you can start directly with the End-User Application Governance Solution Guide.",
+              "children": []
+            },
+            {
+              "id": "n62",
+              "title": "Empower Innovation with Secure End-User Computing",
+              "url": "solution-guides/end-user-application-governance/#empower-innovation-with-secure-end-user-computing",
+              "summary": "Explanation of End-User Application Governance highlighting benefits and risks of user-developed EUC applications and the need for visibility and compliance to safely scale innovation.",
+              "content": "In many companies, employees develop their own End User Computing (EUC) applications (such as Excel sheets, Access databases, or macros) to solve daily operational tasks. This grassroots innovation is highly beneficial, as it empowers teams, enhances flexibility, and significantly boosts productivity by reducing dependence on the IT department. In fact, a majority of organizations recognize that EUC applications improve overall productivity.\n\nHowever, because these user-built tools often operate outside of IT's direct assessment, they naturally come with certain risks. Without proper awareness, organizations can face data integrity issues, a lack of documentation, and compliance challenges. For instance, about one-third of successful cyber-attacks target data stored in unmonitored infrastructure.\n\nTo stay resilient and scale innovation safely, companies need to bring visibility to these solutions. End-User Application Governance helps you manage these applications with well-informed, transparent, and compliant decisions across the enterprise. This approach allows you to fully embrace the advantages of EUC while actively reducing risks, safeguarding business continuity, and ensuring compliance with regulations like DORA and NIS2.",
+              "children": []
+            },
+            {
+              "id": "n63",
+              "title": "Why End-User Application Governance in ADOIT",
+              "url": "solution-guides/end-user-application-governance/#why-end-user-application-governance-in-adoit",
+              "summary": "Description of ADOIT's capabilities to manage EUC by providing unified visibility, governance policies, audit trails, and regulatory compliance to transform hidden risks into managed assets.",
+              "content": "Effectively managing EUC requires a proactive approach that combines policy enforcement, technology, and transparency without stifling innovation.\n\nADOIT provides a unified view of all applications and processes, including those created and maintained by end users. With ADOIT, you gain the visibility and governance needed to turn hidden risks into well-managed assets. It empowers you to establish governance policies, track changes, monitor audit trails, and ensure that all applications meet the required regulatory standards - giving both business and IT the confidence to innovate safely.",
+              "children": []
+            },
+            {
+              "id": "n64",
+              "title": "How it Works in ADOIT",
+              "url": "solution-guides/end-user-application-governance/#how-it-works-in-adoit",
+              "summary": "",
+              "content": "",
+              "children": [
+                {
+                  "id": "n65",
+                  "title": "Choose the lean metamodel profile as a starting point",
+                  "url": "solution-guides/end-user-application-governance/#choose-the-lean-metamodel-profile-as-a-starting-point",
+                  "summary": "Recommendation to use the 'ADOIT for Lean Architecture Fans' metamodel profile as a simple yet effective starting point for End-User Application Governance modeling and analysis.",
+                  "content": "As already recommended in the ADOIT Quick Start Guide choose the ‘ADOIT for Lean Architecture Fans’ metamodel profile. It is a proven and pragmatic starting point that keeps things simple while still allowing meaningful analysis.\n\nIt simplifies the complexity of ArchiMate while ensuring you have all the objects and relations needed to fully use our offered solutions and sample models.\n\nFrom there you can expand step by step once you know which elements and relationships are actually needed for your End-User Application Governance practice.",
+                  "children": []
+                },
+                {
+                  "id": "n66",
+                  "title": "Make it easy for teams to register their tools",
+                  "url": "solution-guides/end-user-application-governance/#make-it-easy-for-teams-to-register-their-tools",
+                  "summary": "Steps to facilitate EUC registration by teams using ADOIT Forms, including form submission, optional approval workflows, and automated storage or review by Enterprise Architects.",
+                  "content": "The first step to gaining control is asking your teams to register their End User Applications. Create enterprise-wide transparency and establish a reliable foundation for safe governance.\n\nSteps:\n1. Use ADOIT Forms to give everyone a simple, guided way to register their end-user applications without needing deep repository knowledge.\n2. Provide your users with the link to the dedicated \"Submit an end-user computing application\" form.\n3. Users assign a name to the EUC application, briefly describe its purpose and add the business units that are usinf the application.\n4. Then users specify which types of technology is used and if the data that is processed in the application is for exmaple personal or customer data. This is important due to potential security or compliance issues.\n5. Optionally they can select a tag to classify the application. For example \"EUC\".\n6. Once the form is submitted, the next steps depend on your form settings:• \"Approval required\" IS NOT activated: The new objects are automatically stored in the predefined repository folder.\n• \"Approval required\" IS activated: The information is sent directly to the defined approvers to review.\n\nReview process when \"Approval required\" is activated:\n1. When \"Approval required\" is activated, the information is sent directly to the selected Enterprise Architects to review. They will be notified via email.\n2. On the forms page under \"My Approvals\" the Enterprise Architects can review and approve or reject the suggested applications. In this step it is also possible to make changes to the suggested applications.\n3. After clicking \"Approve\" the new objects are automatically stored in the predefined repository folder.",
+                  "children": []
+                },
+                {
+                  "id": "n67",
+                  "title": "Spot risks before they impact the business",
+                  "url": "solution-guides/end-user-application-governance/#spot-risks-before-they-impact-the-business",
+                  "summary": "Instructions to identify risks in EUC applications by visualizing organizational assignments, highlighting sensitive data processing via color coding, and analyzing dependencies using the Insights Dashboard.",
+                  "content": "Once the EUC catalouge is established, you need to assess whether these applications contain confidential data and how their security can be improved. Quickly see which capabilities, technologies, and processes each user-built tool touches to identify risks early.\n\nSteps:\n1. Open a view that shows how the EUC applications are assigned to their respective organizational units. You can use our exmaple: Business Actor -> responsible for -> Application Component\n2. In our example form we used the action required attribute as a YES/NO question if the data that is processed in the application is personal or customer data. Now we can use ADOIT's color coding to visually highlight applications that process these sensitive data. (e.g highlighting them in red). These applications represent a higher risk and require immediate action.\n3. Take a closer look at a high-risk EUC application by opening the Insights Dashboard.\n4. In the Relationship Network, you can instantly see which data objects (e.g., Passenger Data) are linked to this application and what underlying technology (e.g., Excel) is being used:",
+                  "children": []
+                },
+                {
+                  "id": "n68",
+                  "title": "Shape how each tool should evolve",
+                  "url": "solution-guides/end-user-application-governance/#shape-how-each-tool-should-evolve",
+                  "summary": "Guidance to plan EUC application evolution by creating roadmaps or workspaces for securing, enhancing, or phasing out tools, including Gantt chart visualizations of lifecycles and replacements.",
+                  "content": "Create clear improvement plans for every tool. Decide whether to secure, enhance, or modernize the application, and assign ownership to make it happen.\n\nSteps:\n1. Develop a roadmap or strategy to secure EUC applications that contain sensitive data.\n2. Decide on the appropriate action: \"securing\" can mean migrating the solution to a more robust technological platform, implementing access restrictions, or choosing better-protected storage locations.\n3. Create a Workspace to plan the phase-out of the risky EUC applications.\n4. Build a Gantt chart view that visualizes the lifecycle of each EUC application and its replacement timeline:",
+                  "children": []
+                },
+                {
+                  "id": "n69",
+                  "title": "Keep governance aligned as things change",
+                  "url": "solution-guides/end-user-application-governance/#keep-governance-aligned-as-things-change",
+                  "summary": "Advice to maintain governance as a continuous process by tracking status, actions, and progress of EUC applications to ensure ongoing compliance and alignment with decisions.",
+                  "content": "Keep governance a living process. As tools evolve or new ones arise, ensure decisions stay accurate, aligned, and compliant. Use up-to-date overviews tracking governance status, actions, and progress over time to ensure that all applications continuously meet the required standards.",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n70",
+      "title": "ArchiMate Patterns",
+      "url": "lib_archimate_docs/",
+      "summary": "Overview of ArchiMate Patterns as reusable modeling blueprints for common enterprise architecture use cases, listing examples like AI System Repository and Capability Modelling.",
+      "content": "ArchiMate Patterns provide reusable modelling blueprints for common enterprise architecture use cases. Each pattern describes the recommended ArchiMate elements, relationships, and modelling conventions to help you create consistent, understandable, and best-practice architecture models. Browse the available patterns below and choose the one that best matches your use case.\n• AI System Repository for the EU AI Act\n• Capability Modelling\n• Application Portfolio Management\n• Enterprise Data Model\n• APIs",
+      "children": [
+        {
+          "id": "n71",
+          "title": "AI System Repository for the EU AI Act",
+          "url": "lib_archimate_docs/AI-agent-repository/",
+          "summary": "",
+          "content": "",
+          "children": [
+            {
+              "id": "n72",
+              "title": "Introduction",
+              "url": "lib_archimate_docs/AI-agent-repository/#introduction",
+              "summary": "Introduction to the EU AI Act compliance pattern in ADOIT, focusing on building an AI system inventory using ArchiMate to support governance, risk assessment, and regulatory compliance.",
+              "content": "The EU AI Act requires organizations to maintain an inventory of AI systems, understand where they are used, assess their risk, and demonstrate appropriate governance throughout their lifecycle.\n\nMany organizations already operate numerous AI systems across different applications, cloud platforms, and departments. Without a structured architectural inventory, it becomes difficult to identify AI systems, understand their business context, assess regulatory obligations, or demonstrate compliance during audits.\n\nThis pattern describes a pragmatic approach to modelling AI systems such as AI agents, chatbots, and MCP tools in ADOIT using ArchiMate. The pattern is aligned with the ADOIT Lean Profile for Enterprise Architecture. It focuses on building an AI inventory that supports governance, risk assessment, and compliance with the EU AI Act while remaining suitable for Enterprise Architecture analysis and planning.",
+              "children": []
+            },
+            {
+              "id": "n73",
+              "title": "Design Principle",
+              "url": "lib_archimate_docs/AI-agent-repository/#design-principle",
+              "summary": "Design principles emphasizing modeling AI systems within their enterprise context, including business processes, data, responsibilities, governance controls, and discovery artifacts for comprehensive oversight.",
+              "content": "• Model AI Systems in Their Enterprise Context\n\nAn AI system should never be documented as an isolated technical component.\n• Effective AI governance requires understanding:\n• where an AI system is provided,\n• which business processes it supports,\n• which business data it processes,\n• which organizational responsibilities are associated with it,\n• which AI model powers it,\n• which governance controls apply,\n• and how it was discovered and inventoried.\n\nThe AI repository therefore combines business, application, information, technology, and governance perspectives into one consistent architecture model.",
+              "children": []
+            },
+            {
+              "id": "n74",
+              "title": "Modelling Structure",
+              "url": "lib_archimate_docs/AI-agent-repository/#modelling-structure",
+              "summary": "Detailed modeling structure for AI systems as Application Services specialized as <AI system>, linking to Application Components, Business Processes, Business Roles, Business Objects, AI models, Discovered Artifacts, and governance Constraints.",
+              "content": "• AI Systems as Application Services\n\nEach AI system is modelled as an Application Service using the specialization < AI system >.\n\nThe AI system is modelled as an Application Service because it represents an AI service rather than the application hosting it.\n\nIt serves as the central element of the AI inventory.\n• Typical examples include:\n• Customer Support agents\n• Code Generation agents\n• Procurement copilots\n• MCP servers\n• Providing Applications\n\nWhile usually embedded within an existing Application Component, an AI system can also be realized as a standalone infrastructure element.\n\nThe Application Component represents the software product or application in which the AI functionality is implemented. It provides architectural context, ownership, lifecycle management, and integration into the application portfolio.\n\nApplication Component → Realization → Application Service < AI system >\n\nThis answers:\n\nWhich application provides this AI system?\n• Business Context\n\nAI systems support one or more Business Processes.\n\nThis establishes the business context required for governance and enables organizations to identify AI systems used in regulated or potentially high-risk business activities.\n\nApplication Service < AI system > → Serving → Business Process\n\nThis answers:\n\nWhich business process is supported by this AI system?\n• Business Responsibilities\n\nAI systems also serve one or more Business Roles that interact with or are responsible for their operation and governance.\n• Within the context of the EU AI Act, organizations typically distinguish three key responsibilities:\n• Owner - accountable for the business use, lifecycle, and governance of the AI system within the organization.\n• Provider - responsible for developing or placing the AI system on the market. This may be an internal development team or an external software vendor.\n• Deployer - responsible for operating or using the AI system within its intended business context.\n\nThese responsibilities are modelled as Business Roles, allowing them to be reused across multiple AI systems and assigned to the appropriate organizational actors.\n\nApplication Service < AI system > → Serving → Business Role\n\nThis answers:\n\nWhich organizational responsibilities are associated with this AI system?\n• Data Usage\n• The business data processed by an AI system is modelled using Business Objects.\n• Typical examples include:\n• Employee\n• Customer\n• Product\n• Order\n• Invoice\n• Contract\n• Supplier\n• Asset\n• Business Objects represent business-relevant information concepts rather than technical implementation details such as prompts, embeddings, vector stores, or payload formats.\n\nApplication Service < AI system > → Access → Business Object\n• This supports:\n• transparency of which business data is processed by AI systems,\n• data governance and ownership,\n• impact analysis,\n• documentation required by the EU AI Act.\n• AI Model\n• The AI model powering an AI system is modelled as System Software.\n• Typical examples include:\n• GPT-5\n• Claude Sonnet\n• Gemini\n• Llama\n• Mistral Large\n• Phi-4\n• Custom Foundation Model\n• The AI model represents the software component that provides the intelligence behind the AI system.\n\nSystem Software → Serving → Application Service < AI system >\n\nThis documents which Foundation Model or LLM powers the AI system and supports impact analysis when models are upgraded, replaced, or retired.\n• Discovered Artifacts\n\nOrganizations often discover potential AI systems or their components/configurations automatically from enterprise platforms such as Microsoft Entra, Azure AI Foundry, ServiceNow, GitHub, or other AI management solutions.\n\nThese technical findings are modelled as Discovered Artifacts. They provide evidence that an AI system exists and support the continuous synchronization between automated discovery sources and the architecture repository.\n\nDiscovered Artifacts are used to identify, validate, or create AI systems within the repository while maintaining human oversight over the inventory.\n\nDiscovered Artifact → Realization → Application Service < AI system >\n• This supports:\n• automated AI discovery,\n• continuous inventory synchronization,\n• validation of documented AI systems,\n• identification of undocumented AI systems.\n• AI Governance Controls\n\nAI governance controls are modelled as Constraints.\n\nConstraints capture mandatory governance, compliance, security, or organizational rules that apply to an AI system. They represent obligations arising from the EU AI Act, internal governance policies, or other regulatory frameworks.\n• Typical examples include:\n• Human oversight required\n• Transparency obligations\n• Logging and monitoring required\n• Data quality controls\n• Bias monitoring\n• Human review before deployment\n• Periodic compliance review\n\nConstraint → Association → Application Service < AI system >",
+              "children": [
+                {
+                  "id": "n75",
+                  "title": "The pattern",
+                  "url": "lib_archimate_docs/AI-agent-repository/#the-pattern",
+                  "summary": "",
+                  "content": "",
+                  "children": []
+                },
+                {
+                  "id": "n76",
+                  "title": "Do / Don't - AI System Modelling",
+                  "url": "lib_archimate_docs/AI-agent-repository/#do--dont---ai-system-modelling",
+                  "summary": "Do's and Don'ts for AI system modeling in ADOIT, including explicit modeling as Application Services, linking to business context and governance, avoiding isolated or spreadsheet-based inventories, and integrating automated discovery.",
+                  "content": "• Do\n• Model every AI system explicitly as an Application Service.\n• Connect every AI system to the Application Component that provides it.\n• Link AI systems to the Business Processes they support.\n• Document the relevant Business Roles (such as Owner, Provider, and Deployer) associated with each AI system.\n• Document the business data processed by AI systems using Business Objects.\n• Model the Foundation Model / LLM separately from the AI system.\n• Integrate automated discovery by linking Discovered Artifacts to AI systems.\n• Record AI governance controls using Constraints.\n• Use the architecture repository as the authoritative AI inventory.\n• Model prompts, embeddings, or implementation details as Artifacts.\n• Don't\n• Don't model AI systems as Application Components.\n• Don't model Foundation Models as AI systems.\n• Don't document AI systems without business context or organizational responsibilities.\n• Don't maintain separate spreadsheets for AI inventories.\n• Don't ignore automatically discovered AI-related artifacts.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "n77",
+              "title": "Scope and Intent",
+              "url": "lib_archimate_docs/AI-agent-repository/#scope-and-intent",
+              "summary": "Scope and intent clarifying that the AI system pattern supports EU AI Act inventories, governance, risk classification, and compliance workflows but does not replace technical AI documentation or MLOps platforms.",
+              "content": "• This pattern supports:\n• AI inventories required by the EU AI Act\n• AI governance and ownership\n• AI risk classification\n• governance and compliance workflows\n• transparency of AI usage across the enterprise\n• architecture impact analysis\n• enterprise-wide AI governance\n• It is not intended to:\n• replace AI model registries or MLOps platforms,\n• describe deployment or runtime architecture,\n• replace detailed technical AI documentation.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n78",
+          "title": "Capability Modelling",
+          "url": "lib_archimate_docs/capability-modelling/",
+          "summary": "",
+          "content": "",
+          "children": [
+            {
+              "id": "n79",
+              "title": "Introduction",
+              "url": "lib_archimate_docs/capability-modelling/#introduction",
+              "summary": "Introduction to capability modeling emphasizing business capabilities as stable, structure-independent organizational abilities, using Value Streams for organization and maintaining flat capability levels for clarity.",
+              "content": "Business capabilities describe what an organization is able to do, independent of organizational structure, processes, or applications.\n\nThey provide a stable foundation for strategic planning, portfolio management, and transformation initiatives.\n\nThis pattern describes a pragmatic approach to capability modelling, using Value Streams to structure capabilities, while deliberately keeping capabilities on a single, flat level to support clarity, consistency, and efficient analysis.",
+              "children": []
+            },
+            {
+              "id": "n80",
+              "title": "Design Principle",
+              "url": "lib_archimate_docs/capability-modelling/#design-principle",
+              "summary": "Design principle recommending structuring capabilities by Value Streams while keeping capabilities on a single flat level to support analysis, comparability, and simplicity.",
+              "content": "• Structure Capabilities by Value Streams, Keep Capabilities Flat\n\nValue Streams provide structure and context.\n\nCapabilities remain on one level to support analysis and comparability.\n\nIn this pattern, Value Streams form the structural hierarchy above capabilities.\n\nThe Capability concept itself is not decomposed hierarchically.",
+              "children": []
+            },
+            {
+              "id": "n81",
+              "title": "Modelling Structure",
+              "url": "lib_archimate_docs/capability-modelling/#modelling-structure",
+              "summary": "Describes modelling business structure using Value Streams to group capabilities and provide a high-level value delivery view, with optional Triggering relationships to show sequence; Capabilities are modelled flatly as distinct business abilities supporting Value Streams, linked via Serving relationships.",
+              "content": "• Value Streams - Structuring the Business\n\nValue Streams are used consistently to group capabilities and provide a high-level view of how the business operates from a value delivery perspective. They can be modelled either with or without Triggering relationships. When used, Triggering relationships represent the logical sequence of Value Streams. Their use is optional and depends on whether modelling the flow between Value Streams is relevant for the intended analysis.\n• Typical examples of Value Streams include:\n• Order to Cash\n• Idea to Market\n• Hire to Retire\n• Incident to Resolution\n• Value Stream → Triggering → Value Stream\n• Capabilities - One Flat Level\n\nCapabilities are modelled on a single level, without sub-capabilities.\n\nEach Capability represents a distinct business ability that supports one or more Value Streams.\n• Typical examples include:\n• Order Management\n• Billing\n• Customer Master Data Management\n• Supplier Management\n• Financial Reporting\n• Capability → Serving → Value Stream\n\nThis relationship shows which capabilities serve each Value Stream.",
+              "children": [
+                {
+                  "id": "n82",
+                  "title": "The Pattern",
+                  "url": "lib_archimate_docs/capability-modelling/#the-pattern",
+                  "summary": "",
+                  "content": "",
+                  "children": []
+                },
+                {
+                  "id": "n83",
+                  "title": "Why This Structure Works",
+                  "url": "lib_archimate_docs/capability-modelling/#why-this-structure-works",
+                  "summary": "Explains rationale for placing Value Streams above Capabilities to provide context and reflect stakeholder views, and keeping Capabilities flat to simplify assessments, improve comparability, reduce effort, and avoid unnecessary decomposition.",
+                  "content": "• Why Value Streams Above Capabilities\n• Provide context without overloading the capability layer\n• Reflect how stakeholders think about value creation\n• Enable consistent grouping across domains\n• Why Capabilities Remain Flat\n• Simplifies assessments, heatmaps, and dashboards\n• Improves comparability across Value Streams\n• Reduces modelling and maintenance effort\n• Avoids artificial decomposition with little analytical benefit",
+                  "children": []
+                },
+                {
+                  "id": "n84",
+                  "title": "Example: Capability Modelling for an Airport",
+                  "url": "lib_archimate_docs/capability-modelling/#example-capability-modelling-for-an-airport",
+                  "summary": "Illustrates capability modelling for an airport with parallel value-oriented business structures, highlighting Aircraft Operations and Passenger Processing as key Value Streams and their associated Capabilities.",
+                  "content": "An airport operates multiple value-oriented business structures in parallel.\n\nTwo of the most central ones are Aircraft Operations and Passenger Processing.\n• Value Streams\n• Capabilities",
+                  "children": []
+                },
+                {
+                  "id": "n85",
+                  "title": "Do / Don't - Capability Modelling",
+                  "url": "lib_archimate_docs/capability-modelling/#do--dont---capability-modelling",
+                  "summary": "Lists best practices for capability modelling: use Value Streams as primary structure, keep Capabilities flat, reuse Capabilities, and avoid decomposing Capabilities or confusing them with processes or organizations.",
+                  "content": "• Do\n• Use Value Streams as the primary structuring element.\n• Keep Capabilities flat.\n• Reuse capabilities across multiple Value Streams.\n• Use capabilities as anchors for assessment and planning.\n• Don't\n• Don't decompose capabilities into sub-capabilities.\n• Don't confuse capabilities with processes or organizations.\n• Don't enforce triggering relations where no flow exists.\n• Don't introduce multiple grouping concepts for the same purpose.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "n86",
+              "title": "Scope and Intent",
+              "url": "lib_archimate_docs/capability-modelling/#scope-and-intent",
+              "summary": "Defines scope supporting strategic planning, capability assessments, and business-application alignment, while excluding business process modelling, organizational structures, or detailed functional decomposition.",
+              "content": "• This pattern supports:\n• strategic planning and prioritization\n• capability assessments and heatmaps\n• alignment between business and application architecture\n• It is not intended to:\n• model business processes\n• describe organizational structures\n• replace detailed functional decomposition",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n87",
+          "title": "Application Portfolio Management",
+          "url": "lib_archimate_docs/application-portfolio-management/",
+          "summary": "",
+          "content": "",
+          "children": [
+            {
+              "id": "n88",
+              "title": "Introduction",
+              "url": "lib_archimate_docs/application-portfolio-management/#introduction",
+              "summary": "Introduces Application Portfolio Management (APM) as providing transparency on applications' usage, ownership, data, and technology dependencies, emphasizing a pragmatic ArchiMate-based approach aligned with ADOIT Lean Profile focusing on clarity and analytical usability.",
+              "content": "Application Portfolio Management (APM) provides transparency about which applications exist, what they are used for, who owns them, which data they manipulate, and on which technologies they depend.\n\nThis pattern describes a pragmatic approach to Application Portfolio Management using ArchiMate, aligned with the ADOIT Lean Profile for Enterprise Architecture.\n\nThe focus is on clarity, comparability, and analytical usability rather than exhaustive technical detail.",
+              "children": []
+            },
+            {
+              "id": "n89",
+              "title": "Design Principle",
+              "url": "lib_archimate_docs/application-portfolio-management/#design-principle",
+              "summary": "",
+              "content": "",
+              "children": [
+                {
+                  "id": "n90",
+                  "title": "Business First, Technology Second",
+                  "url": "lib_archimate_docs/application-portfolio-management/#business-first-technology-second",
+                  "summary": "Advocates defining applications from a business perspective focusing on value and ownership rather than technical details, separating implementation specifics into technology architecture to enhance portfolio transparency and management.",
+                  "content": "Applications are defined from a business perspective rather than a technical one.\n\nThere is no universally accepted rule for defining what constitutes an application. This pattern recommends defining applications from a business perspective rather than a technical one.\n\nThe portfolio focuses on the value an application provides to the business and who is responsible for it, while implementation details are documented separately in the technology architecture.\n\nThis separation improves portfolio transparency, avoids unnecessary technical complexity, and better supports application portfolio management and architecture planning.",
+                  "children": []
+                },
+                {
+                  "id": "n91",
+                  "title": "What Is an Application?",
+                  "url": "lib_archimate_docs/application-portfolio-management/#what-is-an-application",
+                  "summary": "Clarifies the need to define what qualifies as an application, distinguishing them from generic platforms, shared products, or infrastructure services to avoid ambiguity in the application portfolio.",
+                  "content": "Before modelling anything in the application portfolio, it must be clear what qualifies as an application.\n• In practice, many components are labelled \"application\" even though they are:\n• generic platforms,\n• shared technology products,\n• or infrastructure services.\n\nTo avoid ambiguity and keep the portfolio lean, the following Application Identification Questionnaire is used.",
+                  "children": [
+                    {
+                      "id": "n92",
+                      "title": "Application Identification Questionnaire",
+                      "url": "lib_archimate_docs/application-portfolio-management/#application-identification-questionnaire",
+                      "summary": "Provides a business-oriented Application Identification Questionnaire to decide if a component should be modelled as an Application Component or System Software, focusing on business logic, capability mapping, specificity, ownership, lifecycle independence, data manipulation, and business capability impact.",
+                      "content": "The questionnaire helps determine whether a component should be modelled as an Application Component or rather as System Software.\n\nThe questions are intentionally business-oriented and independent of implementation details.\n1. Does the component contain business logic?\n• Does it support concrete business functionality?\n\nIf a software component is primarily responsible for hosting or realizing applications, rather than delivering business functionality, it should be modelled as System Software rather than an application.\n2. Can the component be mapped to specific capabilities?\n• Does it clearly realize a defined set of business capabilities?\n• Is its contribution to the business understandable and explainable?\n\nIf the mapping to capabilities is vague or extremely broad, this is a strong indicator that the component is not an application.\n3. Is the component business-specific or general-purpose?\n• Is it tailored to specific business needs?\n• Or does it provide generic functionality across many domains?\n\nGeneral-purpose components are typically System Software.\n4. Does the component have clear business responsibility?\n• Is there an identifiable Application Owner?\n\nIf a software component is owned and managed entirely by IT and does not provide business functionality directly, it is typically System Software rather than an application and does not belong in the application portfolio.\n5. Can the component be managed independently?\n• Does it have its own roadmap or investment planning?\n• Can it be deployed, updated, replaced, or retired independently of other software?\n• Would its lifecycle differ from that of the surrounding solution?\n\nIf a part of a solution can be managed with its own lifecycle, it is often a good candidate for a separate Application Component. Independent lifecycles are a strong indicator that multiple Application Components should be modelled instead of a single one.\n6. Does the component manipulate business data?\n• Does it create, update, or delete Business Objects?\n• Is it a system of record or system of engagement?\n\nComponents that only transport or technically process data are usually not applications.\n7. Would removing the component remove a business capability?\n\nA simple but effective control question: If this component were removed, would the organization lose a business capability — or only a technical platform?\n• Loss of a business capability → Application Component\n• Only technical replacement required → System Software\n\nPractical Guidance\n\nThe questionnaire is a decision aid, not a rigid checklist.\n• In most cases:\n• If all or most of the questions can be answered with yes, the component should be modelled as an Application Component.\n• If only a few apply, it is typically System Software or another technical element.\n\nThis keeps the application portfolio focused on business value.",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "n93",
+              "title": "Modelling Structure",
+              "url": "lib_archimate_docs/application-portfolio-management/#modelling-structure",
+              "summary": "Details the modelling structure where applications are Application Components linked to Capabilities via Realization, technology dependencies modelled as System Software serving applications, APIs as Application Interfaces composed and served by applications, business data linked via Business Objects, and ownership represented by Business Actors with ADOIT-specific relations.",
+              "content": "• Application Components - Core of the Portfolio\n\nEach application is modelled as an Application Component.\n• Application Components represent:\n• business responsibility,\n• functional scope,\n• portfolio-relevant planning units.\n• Linking Applications to Capabilities\n\nTo understand why an application exists, it is linked to business capabilities.\n\nApplication Component → Realization → Capability\n• Technology Dependencies via System Software\n\nUnderlying technology products are modelled as System Software.\n\nSystem Software → Serving → Application Component\n• This makes visible:\n• technology dependencies,\n• standard platforms,\n• modernization constraints.\n• Information Flows via Application Interfaces\n\nAPIs and interfaces are modelled explicitly using Application Interfaces.\n• Applications compose the interfaces they provide.\n\nApplication Component → Composition → Application Interface\n• Applications are served by the interfaces they consume.\n\nApplication Interface → Serving → Application Component\n• Data Usage via Business Objects\n\nTo understand which data an application manipulates, Business Objects are used.\n\nApplication Component → Access → Business Object\n• Business Responsibility via Business Actors\n\nOwnership and usage responsibility are explicitly modelled.\n• Application Owner\n\nApplication Component → Responsible → Business Actor (remark: ADOIT-specific relation)\n• User Organization / Customer\n\nApplication Component → Informed → Business Actor (remark: ADOIT-specific relation)",
+              "children": [
+                {
+                  "id": "n94",
+                  "title": "Modelling Pattern",
+                  "url": "lib_archimate_docs/application-portfolio-management/#modelling-pattern",
+                  "summary": "",
+                  "content": "",
+                  "children": []
+                },
+                {
+                  "id": "n95",
+                  "title": "Do / Don't - Application Portfolio Modelling",
+                  "url": "lib_archimate_docs/application-portfolio-management/#do--dont---application-portfolio-modelling",
+                  "summary": "Recommends modelling applications as Application Components linked to Capabilities, separating them from System Software, making ownership explicit, decomposing large monoliths when useful, and avoiding modelling generic platforms as applications or connecting applications directly without interfaces.",
+                  "content": "• Do\n• Model applications as Application Components.\n• Link applications to Capabilities.\n• Separate applications from System Software.\n• Make ownership and usage explicit.\n• Decompose large monoliths where useful.\n• Don't\n• Don't model generic platforms as applications.\n• Don't model applications without clear ownership.\n• Don't connect applications directly without interfaces.\n• Don't treat monoliths as indivisible units.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "n96",
+              "title": "Scope and Intent",
+              "url": "lib_archimate_docs/application-portfolio-management/#scope-and-intent",
+              "summary": "Specifies scope supporting application inventory, portfolio analysis, modernization planning, and alignment across business, application, and technology views, excluding technical system documentation, deployment/runtime architecture, or application internals modelling.",
+              "content": "• This pattern supports:\n• application inventory and transparency,\n• portfolio analysis and rationalization,\n• modernization and replacement planning,\n• alignment between business, application, and technology views.\n• It is not intended to:\n• replace technical system documentation,\n• model deployment or runtime architecture,\n• describe application internals.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n97",
+          "title": "Enterprise Data Model",
+          "url": "lib_archimate_docs/enterprise-data-model/",
+          "summary": "",
+          "content": "",
+          "children": [
+            {
+              "id": "n98",
+              "title": "Introduction",
+              "url": "lib_archimate_docs/enterprise-data-model/#introduction",
+              "summary": "Introduces Enterprise Data Models as business-focused, technology-independent representations of critical data concepts to enable governance, impact analysis, and compliance, using a lean ArchiMate-based approach aligned with ADOIT Lean Profile.",
+              "content": "Enterprise Architecture makes business data visible and governable. It reveals which data is business-critical, where it is used, and who is responsible for it. This provides the foundation for informed decisions, effective governance, and compliance with regulations such as DORA and the EU AI Act.\n\nEnterprise Data Models address this by focusing on business-relevant information concepts, independent of physical databases or schemas.\n\nThis pattern describes a lean approach to modelling Enterprise Data Models in ADOIT using ArchiMate, aligned with the ADOIT Lean Profile and optimized for analysis and governance.",
+              "children": []
+            },
+            {
+              "id": "n99",
+              "title": "Design Principle",
+              "url": "lib_archimate_docs/enterprise-data-model/#design-principle",
+              "summary": "Design principle emphasizes modelling data for business understanding rather than implementation, maintaining a single logical flat data model without physical tables, attributes, or system-specific variants, which are handled separately via ArchiMate Data Objects.",
+              "content": "• Model Data for Understanding, Not for Implementation\n\nOur enterprise data models are intended to describe what the business cares about - not how data is stored.\n\nThe goal is shared understanding and impact analysis, not technical data design.\n• One Logical Data Model\n\nEnterprise Data Models are kept logical and flat.\n• No physical tables\n• No attributes or columns\n• No system-specific variants\n\nFor modelling details and system-specific variants we use the ArchiMate element Data Object, which is not part of the pattern at hand.",
+              "children": []
+            },
+            {
+              "id": "n100",
+              "title": "Modelling Structure",
+              "url": "lib_archimate_docs/enterprise-data-model/#modelling-structure",
+              "summary": "Describes modelling core business information as Business Objects organized by Grouping for navigation, linking them to Application Components and Application Interfaces to enable impact and dependency analysis across the architecture.",
+              "content": "• Each core business information concept is modelled as a Business Object.\n• Typical examples include:\n• Customer\n• Order\n• Invoice\n• Flight\n• Asset\n• These data elements are:\n• business-oriented,\n• stable over time,\n• independent of system-specific schemas.\n• Structuring Business Objects with Grouping\n\nRelated Business Objects are organized using Grouping.\n\nGrouping is used purely for structuring and navigation, not for functional semantics.\n\nGrouping → Aggregation → Business Object\n• Linking Data to Applications and APIs\n\nBusiness Objects are linked to:\n• Application Components that create or use them,\n\nApplication Component → Access → Business Object\n• Application Interfaces (APIs) that expose or consume them.\n\nApplication Interface → Access → Business Object\n\nThis enables impact and dependency analysis across the architecture.",
+              "children": [
+                {
+                  "id": "n101",
+                  "title": "Modelling Pattern",
+                  "url": "lib_archimate_docs/enterprise-data-model/#modelling-pattern",
+                  "summary": "",
+                  "content": "",
+                  "children": []
+                },
+                {
+                  "id": "n102",
+                  "title": "Do / Don't - Enterprise Data Modelling",
+                  "url": "lib_archimate_docs/enterprise-data-model/#do--dont---enterprise-data-modelling",
+                  "summary": "Advises to model business data as Business Objects, use Grouping for structure, reuse objects across applications and APIs, keep models logical and technology-independent, and avoid modelling physical tables, attributes, duplicates, or mixing physical and logical views.",
+                  "content": "• Do\n• Model business data concepts as Business Objects.\n• Use Grouping for structure and orientation.\n• Reuse Business Objects across application components and APIs.\n• Keep the data model logical and technology-independent.\n• Don't\n• Don't model database tables or schemas.\n• Don't add attributes or columns.\n• Don't duplicate Business Objects per application.\n• Don't mix physical and logical data views.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "n103",
+              "title": "Scope and Intent",
+              "url": "lib_archimate_docs/enterprise-data-model/#scope-and-intent",
+              "summary": "Defines scope supporting data ownership, governance, impact analysis, and consistent API/integration modelling, while excluding detailed logical/physical data models, database design, or data storage replication modelling.",
+              "content": "• This pattern supports:\n• data ownership and governance discussions,\n• impact analysis for changes,\n• consistent API and integration modelling.\n• It is not intended to:\n• replace logical or physical data models,\n• document database design,\n• model data storage or replication.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n104",
+          "title": "APIs",
+          "url": "lib_archimate_docs/APIs/",
+          "summary": "",
+          "content": "",
+          "children": [
+            {
+              "id": "n105",
+              "title": "Introduction",
+              "url": "lib_archimate_docs/APIs/#introduction",
+              "summary": "Introduces API modelling as essential for understanding application dependencies and data flows, recommending explicit, consistent modelling focusing on API ownership, consumption, and exchanged business information while avoiding technical implementation details.",
+              "content": "APIs are a central mechanism for exposing and consuming functionality and data between applications.\n\nTo understand dependencies and data flows across the application landscape, APIs should be modelled explicitly and consistently.\n\nThis pattern describes a lightweight approach to API modelling in ADOIT using ArchiMate. It focuses on API ownership, consumption, and exchanged business information while deliberately avoiding technical implementation details and additional modelling constructs.\n\nThe approach represents a conscious trade-off between modelling detail and modelling effort. Rather than documenting every technical interaction and data flow explicitly, the pattern captures the information required for architecture-level transparency and analysis.",
+              "children": []
+            },
+            {
+              "id": "n106",
+              "title": "Design Principle",
+              "url": "lib_archimate_docs/APIs/#design-principle",
+              "summary": "Design principle stresses making APIs explicit with clear ownership to reveal dependencies and data exchange, using minimal ArchiMate elements and deriving data flow direction from provider-consumer relationships to balance insight and modelling effort.",
+              "content": "Make APIs Explicit and Ownership Clear\n\nFrom an Enterprise Architecture perspective, API modelling should make it clear which Application Components are connected and what business-relevant data is exchanged between them.\n\nModelling APIs explicitly makes these dependencies visible and supports integration transparency, dependency analysis, and impact assessment.\n\nTo balance architectural insight with modelling effort, this pattern uses a small set of ArchiMate elements and relationships. The predominant direction of data flow is derived from the provider-consumer structure rather than modelled through additional relationships.",
+              "children": []
+            },
+            {
+              "id": "n107",
+              "title": "Modelling Structure",
+              "url": "lib_archimate_docs/APIs/#modelling-structure",
+              "summary": "Details API modelling structure: APIs as Application Interfaces composed by a single providing Application Component and served to consuming Application Components; predominant data flow inferred from provider → API → consumer; business data exchanged represented by Business Objects accessed via APIs; optional runtime platforms modelled as System Software serving APIs; technical details captured as attributes, excluding endpoints or message-level details.",
+              "content": "• APIs as Application Interfaces\n\nEach API is modelled as an Application Interface.\n\nThe Application Interface:\n• represents the API through which an Application Component exposes functionality and data to other applications,\n• provides a stable architectural representation of the API,\n• remains independent of technical implementation details.\n\nAPIs are not modelled implicitly through direct component-to-component connections.\n• API Ownership via Application Components\n\nEach API should have one clearly identified providing Application Component.\n\nThe providing Application Component composes the Application Interface.\n\nThe provider is responsible for the lifecycle and evolution of the API from an organizational and management perspective.\n\nApplication Component → composition → Application Interface\n• API Consumption Made Explicit\n\nApplications consuming an API are explicitly connected to the Application Interface.\n\nThe Application Interface serves the consuming Application Component.\n\nConsumers therefore connect to the API rather than directly to the providing Application Component.\n\nApplication Interface → serving → Application Component\n\nThis clearly distinguishes the provider from its consumers.\n• Main Data Flow Convention\n\nTo keep modelling lightweight, the predominant direction of data flow is derived from the provider-consumer structure:\n\nProviding Application Component → composition → Application Interface → serving → Consuming Application Component\n\nThe Application Component that composes the API is considered the provider and the primary source of the relevant data. In this pattern, it is also considered responsible for the API from an organizational and management perspective, including its lifecycle and evolution.\n\nApplication Components served by the API are considered consumers of the data.\n\nThis convention deliberately simplifies the actual technical communication. APIs may involve requests, responses, and information flowing in both directions. These individual flows are not modelled separately.\n\nThe pattern therefore represents the predominant business-relevant data flow rather than every technical interaction. This provides sufficient information for architecture-level dependency and impact analysis while keeping modelling and maintenance effort low.\n• Exchanged Data via Business Objects\n\nThe business-relevant information exchanged through an API is represented using Business Objects.\n\nBusiness Objects describe meaningful business information rather than technical payload schemas and can be reused across multiple APIs.\n\nApplication Interface → access → Business Object\n\nTogether with the provider-consumer convention, this identifies which business information is primarily provided through the API and which applications consume it.\n• Runtime Support via System Software\n\nWhere relevant, API runtime platforms such as API gateways or container platforms can be modelled as System Software.\n\nSystem Software serves the Application Interface.\n\nRuntime support does not imply API ownership.\n\nSystem Software → serving → Application Interface\n\nRuntime modelling is optional and should only be added where this information provides architectural value.\n• Technical Details as Attributes\n\nTechnical details such as:\n• protocol,\n• synchronous vs. asynchronous behaviour,\n• security mechanisms,\n• documentation links,\n\nare captured as attributes rather than additional model elements.\n\nEndpoints, methods, payload formats, and individual request/response messages are outside the scope of this pattern.",
+              "children": [
+                {
+                  "id": "n108",
+                  "title": "Resulting Modelling Pattern (Compact)",
+                  "url": "lib_archimate_docs/APIs/#resulting-modelling-pattern-compact",
+                  "summary": "Summarizes core API modelling pattern as providing Application Component composing Application Interface serving consuming Application Component, with Application Interface accessing Business Objects and optional System Software serving the API for runtime support.",
+                  "content": "• Core Pattern\n\nProviding Application Component → composition → Application Interface (API) → serving → Consuming Application Component\n\nApplication Interface → access → Business Object\n\nThe core structure implies the predominant information flow: Provider → API → Consumer\n• Optional Runtime Information\n\nSystem Software → serving → Application Interface",
+                  "children": []
+                },
+                {
+                  "id": "n109",
+                  "title": "Do / Don't - AI System Modelling",
+                  "url": "lib_archimate_docs/APIs/#do--dont---ai-system-modelling",
+                  "summary": "Lists do's and don'ts for API modelling: explicitly model architecturally relevant APIs with clear providers and consumers, represent exchanged business data with Business Objects, keep technical details as attributes, avoid direct component connections without APIs, implicit API modelling, detailed request/response modelling, or mixing runtime support with ownership.",
+                  "content": "• Do\n• Model every architecturally relevant API explicitly as an Application Interface\n• Assign a clear providing Application Component\n• Make API consumers explicit\n• Model business-relevant exchanged information using Business Objects\n• Use the provider → API → consumer structure to indicate the predominant data flow\n• Keep technical details as attributes\n• Add runtime information only where it provides architectural value\n• Don't\n• Don’t connect Application Components directly when the API itself is architecturally relevant\n• Don’t model APIs implicitly\n• Don’t model every technical request and response\n• Don’t introduce additional elements solely to represent detailed data flows\n• Don’t mix runtime support with API ownership\n• Don’t model endpoints, methods, or payload schemas",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "n110",
+              "title": "Scope and Intent",
+              "url": "lib_archimate_docs/APIs/#scope-and-intent",
+              "summary": "Defines scope supporting integration transparency, understanding API providers/consumers, predominant data flows, dependency and impact analysis, and portfolio planning, excluding detailed technical API documentation, bidirectional data exchanges, runtime/deployment architecture, or message-level modelling.",
+              "content": "• This pattern supports:\n• Integration transparency,\n• understanding API providers and consumers,\n• understanding predominant data flows,\n• dependency and impact analysis,\n• application portfolio planning.\n• It is not intended to:\n• replace technical API documentation,\n• document every bidirectional data exchange,\n• describe detailed runtime or deployment architecture,\n• model endpoints, messages, or payload schemas.\n\nWhere more detailed analysis is required, additional ArchiMate concepts and relationships can be introduced. They should not be required for the standard lightweight API modelling approach.",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
