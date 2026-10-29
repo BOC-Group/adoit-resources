@@ -1,0 +1,541 @@
+{
+  "version": 6,
+  "metadata": {
+    "documentationVersion": "21.0",
+    "generatedAt": "2026-10-29T07:32:00Z",
+    "baseUrl": "https://docs.boc-group.com/adoit/en/",
+    "systemPrompt": "Contains the ADOIT Forms User Manual. Suggest it for every question regarding ADOIT Forms, the templates of it, submitting, propossing, reviewing, setup, requirements or general questions.",
+    "mention": {
+      "id": "formsManual",
+      "label": {
+        "en": "ADOIT Forms",
+        "de": "ADOIT Forms"
+      },
+      "description": {
+        "en": "Search the ADOIT Forms user manual",
+        "de": "Durchsuche das Benutzerhandbuch von ADOIT Forms"
+      }
+    }
+  },
+  "documents": [
+    {
+      "id": "n1",
+      "title": "The ADOIT Forms User Manual",
+      "url": "modules/Forms/",
+      "summary": "ADOIT Forms is an extension of the ADOIT EAM suite enabling users to design, manage, and complete forms via a graphical interface without programming, facilitating data capture, updates, valuations, and proposals.",
+      "content": "User Manual\n\nWelcome to the ADOIT Forms user manual!\n\nADOIT Forms is powered by the leading EAM suite ADOIT. It enables you to design, manage and complete forms for ADOIT with an easy to use graphical user interface.\n\nYour added values:\n• Design Forms simply. Without programming.\n• Capture ADOIT data intuitively. Without training and workshops.\n• Periodically ensure that ADOIT data is up to date.\n• Obtain ad-hoc valuations.\n• Propose new objects.\n• And more!\n\nFor the installation process of ADOIT Forms, refer to the Installation Manual and the Hardware and Software Requirements.\n\nCheck the What's new section to see new features introduced with the latest version.",
+      "children": [
+        {
+          "id": "n2",
+          "title": "About this Manual",
+          "url": "modules/Forms/#about-this-manual",
+          "summary": "This manual provides instructions on how to use ADOIT Forms features.",
+          "content": "In the following documentation you will find instructions on how to use the features of ADOIT Forms as a",
+          "children": [
+            {
+              "id": "n3",
+              "title": "Template Designer",
+              "url": "modules/Forms/#template-designer",
+              "summary": "The Template Designer section explains how to create and manage form templates.",
+              "content": "• Templates: Learn how to design and manage Templates.",
+              "children": []
+            },
+            {
+              "id": "n4",
+              "title": "Forms Submitter",
+              "url": "modules/Forms/#forms-submitter",
+              "summary": "The Forms Submitter section guides users on accessing and completing forms to update ADOIT objects and proposing new objects.",
+              "content": "• My Forms: Learn how to access and complete your Forms to update your ADOIT objects.\n• Proposals: Learn how to propose new ADOIT objects.",
+              "children": []
+            },
+            {
+              "id": "n5",
+              "title": "Forms Reviewer",
+              "url": "modules/Forms/#forms-reviewer",
+              "summary": "The Forms Reviewer section covers reviewing submitted forms, available from ADOIT version 18.0 onwards.",
+              "content": "• Review submissions: Learn how to review submitted Forms (available for ADOIT version 18.0 or newer).",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n6",
+          "title": "Learn more",
+          "url": "modules/Forms/#learn-more",
+          "summary": "Additional resources include the Installation Manual, Hardware and Software Requirements, BOC EAM Marketplace, and BOC Group Resources.",
+          "content": "For additional information, take a look at:\n• ADOIT Forms Installation Manual\n• ADOIT Forms Hardware and Software Requirements\n• BOC EAM Marketplace\n• BOC Group Ressources",
+          "children": []
+        },
+        {
+          "id": "n7",
+          "title": "What's new",
+          "url": "modules/Forms/Whats-New/",
+          "summary": "",
+          "content": "",
+          "children": [
+            {
+              "id": "n8",
+              "title": "Version 1.8.1",
+              "url": "modules/Forms/Whats-New/#version-181",
+              "summary": "Version 1.8.1 introduced optional rejection reasons for proposals and update forms, included in rejection emails.",
+              "content": "• Optional rejection reason when rejecting proposals and update forms. The reason is included in the rejection email sent to the submitter.",
+              "children": []
+            },
+            {
+              "id": "n9",
+              "title": "Version 1.8.0",
+              "url": "modules/Forms/Whats-New/#version-180",
+              "summary": "Version 1.8.0 added approval features for update forms, support for ADOIT stored email templates (v20+), and various improvements.",
+              "content": "• The approval feature for update forms.\n• Support for ADOIT (version 20 or newer) stored email templates\n• Various improvements and bugfixes.",
+              "children": []
+            },
+            {
+              "id": "n10",
+              "title": "Version 1.7.0",
+              "url": "modules/Forms/Whats-New/#version-170",
+              "summary": "Version 1.7.0 introduced application memory stored tokens.",
+              "content": "• Application memory stored tokens",
+              "children": []
+            },
+            {
+              "id": "n11",
+              "title": "Version 1.6.0",
+              "url": "modules/Forms/Whats-New/#version-160",
+              "summary": "Version 1.6.0 improved management overview features.",
+              "content": "• Management overview improvements",
+              "children": []
+            },
+            {
+              "id": "n12",
+              "title": "Version 1.5.3",
+              "url": "modules/Forms/Whats-New/#version-153",
+              "summary": "Version 1.5.3 added saving changes for proposed object reviews, template owner for proposal templates, Spanish UI language, and various fixes.",
+              "content": "• Saving changes for proposed object review.\n• Template owner available for Proposal templates.\n• Spanish user interface language.\n• Various improvements and bugfixes.",
+              "children": []
+            },
+            {
+              "id": "n13",
+              "title": "Version 1.5.2",
+              "url": "modules/Forms/Whats-New/#version-152",
+              "summary": "Version 1.5.2 included various improvements and bug fixes.",
+              "content": "• Various improvements and bugfixes.",
+              "children": []
+            },
+            {
+              "id": "n14",
+              "title": "Version 1.5.1",
+              "url": "modules/Forms/Whats-New/#version-151",
+              "summary": "Version 1.5.1 added display of question descriptions during proposal reviews, a clear cache button, and other fixes.",
+              "content": "• Displayed questions descriptions when reviewing proposed objects.\n• Clear cache button.\n• Various improvements and bugfixes.",
+              "children": []
+            },
+            {
+              "id": "n15",
+              "title": "Version 1.5",
+              "url": "modules/Forms/Whats-New/#version-15",
+              "summary": "Version 1.5 introduced approval features for proposed objects along with improvements and bug fixes.",
+              "content": "• The approval feature for proposed objects.\n• Various improvements and bugfixes.",
+              "children": []
+            },
+            {
+              "id": "n16",
+              "title": "Version 1.4",
+              "url": "modules/Forms/Whats-New/#version-14",
+              "summary": "Version 1.4 added table sorting/filtering, enhanced submission reports, and user messages about repository inaccessibility and locked objects.",
+              "content": "• Tables sorting and filtering.\n• Improvements to the form submission result report.\n• Additional messages displayed to the user:\n• Information about inaccessibility of the target repository assigned to the proposal form.\n• Information about locked object on update form submission failure.",
+              "children": []
+            },
+            {
+              "id": "n17",
+              "title": "Version 1.3",
+              "url": "modules/Forms/Whats-New/#version-13",
+              "summary": "Version 1.3 enhanced template designer with target content language and relation target restrictions, plus performance and UX improvements.",
+              "content": "• Template designer: Define target content language.\n• Template designer: Restrict relation target selection.\n• Performance improvements.\n• Various user experience improvements and bugfixes.",
+              "children": []
+            },
+            {
+              "id": "n18",
+              "title": "Version 1.2",
+              "url": "modules/Forms/Whats-New/#version-12",
+              "summary": "Version 1.2 introduced proposal use cases with proposal template designer, proposals view, new template layout, and UX improvements.",
+              "content": "• Propose new object use case:\n• Proposal template designer\n• Proposals view\n• New layout for templates view.\n• Various user experience improvements and bugfixes.",
+              "children": []
+            },
+            {
+              "id": "n19",
+              "title": "Version 1.1",
+              "url": "modules/Forms/Whats-New/#version-11",
+              "summary": "Version 1.1 improved best practice template import, loading times, and user experience.",
+              "content": "• Improved best practice template import.\n• Improved loading times.\n• Various user experience improvements and bugfixes.",
+              "children": []
+            },
+            {
+              "id": "n20",
+              "title": "Version 1.0",
+              "url": "modules/Forms/Whats-New/#version-10",
+              "summary": "Version 1.0 launched core features: template designer, My Forms view, email notifications with deep-links, one-step activation, and OAuth 2.0 authentication.",
+              "content": "• Template designer to define Form Templates.\n• My Forms view for Forms Submitter.\n• Email notifications including deep-links.\n• One-step activation via ADOIT component settings.\n• Secure authentication against ADOIT by using OAuth 2.0.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n21",
+          "title": "Design a template",
+          "url": "modules/Forms/Template-Designer/",
+          "summary": "ADOIT Forms enables designing questionnaire templates via a GUI requiring user permissions and OAuth connection to ADOIT, facilitating efficient object updates.",
+          "content": "ADOIT Forms allows you to design questionnaire templates for ADOIT with an easy to use graphical user interface.\n\nnote\n\nThe details on how to connect to your ADOIT installation are described in the OAuth section.\n\nnote\n\nYou need to need to have user permissions to be able to open the templates component of ADOIT Forms.\n\nEnable your colleagues to modify existing objects in ADOIT efficiently and keep information up to date.",
+          "children": [
+            {
+              "id": "n22",
+              "title": "How to design a new update template",
+              "url": "modules/Forms/Template-Designer/#how-to-design-a-new-update-template",
+              "summary": "To design a new update template, select the repository, ensure 'Update templates' tab is active, and create a new template.",
+              "content": "Go to Templates, select the repository where the template should be stored, ensure that the tab Update templates is selected and open New template.",
+              "children": [
+                {
+                  "id": "n23",
+                  "title": "Template attributes",
+                  "url": "modules/Forms/Template-Designer/#template-attributes",
+                  "summary": "Template attributes include title, optional description, object type, target language, form recipient, template owner, approval requirement, and approver(s); approval requires ADOIT v18+.",
+                  "content": "First, you have to fill out the following fields for the template:\n1. Title: Choose a descriptive name for the template.\n2. Description (optional): Add a description that describes what the template is about.\n3. Object type: Select the ADOIT object type that is used for this template.\n4. Target language: Per default, the ADOIT primary database language is selected for all templates. Select a language, if you want another ADOIT content language to be updated by Forms of this template.\n5. Form recipient: Select from which responsibility relation the Form responsibilities should be derived.\n6. Template owner: The selected user is displayed on Templates overview page.\n7. Approval required: Decide whether the object should be updated directly after the form submission, or whether it requires approval.\n8. Approver: Select user(s) that will receive an email notification for every submitted Form and will be responsible for reviewing them (only when approval is required).\n\nnote\n\nThe approval feature is available for ADOIT version 18.0 or newer.",
+                  "children": []
+                },
+                {
+                  "id": "n24",
+                  "title": "Question attributes",
+                  "url": "modules/Forms/Template-Designer/#question-attributes",
+                  "summary": "Question attributes define question title, optional description, linked ADOIT property or relation, relation target type, and optional relation target selection restrictions; saving is required.",
+                  "content": "Once the template attributes are defined, you can Add Question and define for each question:\n1. Question title: Define an easy-to-understand question.\n2. Question description (optional): Add some context to the question.\n3. Property: Select an ADOIT attribute or an ADOIT relation of the previously choosen object type.\n4. Relation target: For property values of type relation, it is additionally necessary to define a target object type.\n5. Restrict relation target selection: For property values of type relation, it is possible to select a saved ADOIT search query to limit the selectable target objects for this question.\n\nnote\n\nDo not forget to save your template before closing the template designer!",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "n25",
+              "title": "How to assign an update template and distribute Forms",
+              "url": "modules/Forms/Template-Designer/#how-to-assign-an-update-template-and-distribute-forms",
+              "summary": "Assign update templates by selecting objects via Explorer or saved queries, then distribute forms which send email notifications; reminders can be sent for open forms.",
+              "content": "Go to Templates, then Select a repository and open Distribute for a selected Template.\n\nYou can choose out of all the visible objects of the Object type that is defined for this Template by:\n• Explorer: Select a single or several objects directly in the object explorer.\n• Saved search query: Select a public saved ADOIT search query that contains objects of the respective object type.\n\nAfter clicking Distribute forms are created for all selected objects. Email notifications to responsible users are sent (after users confirmation) on activation of a template or on distribution when a template is active.\n\nA reminder can be sent to all responsible users for forms with status Open.",
+              "children": []
+            },
+            {
+              "id": "n26",
+              "title": "How to manage an update template",
+              "url": "modules/Forms/Template-Designer/#how-to-manage-an-update-template",
+              "summary": "Manage update templates by viewing distributed forms with statuses (Open, Updated, Approved) and last completion dates; only Open forms can be edited if approval is required.",
+              "content": "Go to Templates and open Distribute for a selected template.\n\nUnder Distributed Forms you can see all created Forms that belong to this template.\n\nStatus shows the current state of each Form: Open (not yet submitted) or Updated (submitted). When approval is required, Approved is shown after the Form has been reviewed and approved. Note, that forms requiring approval can be opened only if status is Open.\n\nLast completion date shows when the Form has been submitted the last time. If there is no date visible, the Form has not been completed yet.",
+              "children": []
+            },
+            {
+              "id": "n27",
+              "title": "How to edit an update template",
+              "url": "modules/Forms/Template-Designer/#how-to-edit-an-update-template",
+              "summary": "Edit update templates by opening and saving changes; existing forms based on the template update immediately.",
+              "content": "Go to Templates and open Edit for a selected template. After you have made your changes, confirm them with Save.\n\nnote\n\nExisting Forms based on this template are updated directly!",
+              "children": []
+            },
+            {
+              "id": "n28",
+              "title": "How to import sample update templates",
+              "url": "modules/Forms/Template-Designer/#how-to-import-sample-update-templates",
+              "summary": "Import best practice update templates into a selected repository for immediate use and distribution; deleted or renamed templates can be re-imported.",
+              "content": "Go to Templates, select the repository where the template should be imported and click Import best practice templates.\n\nThe imported templates can directly be used and distributed.\n\nAfter an imported template is deleted or the name is changed, the template can be imported again.\n\nEnable your colleagues to suggest new objects for ADOIT.",
+              "children": []
+            },
+            {
+              "id": "n29",
+              "title": "How to design a new proposal template",
+              "url": "modules/Forms/Template-Designer/#how-to-design-a-new-proposal-template",
+              "summary": "Design new proposal templates by selecting repository, switching to 'Proposal templates' tab, and creating a new template.",
+              "content": "Go to Templates, select the repository where the template should be stored, switch to the tab Proposal templates and click New template.",
+              "children": [
+                {
+                  "id": "n30",
+                  "title": "Template attributes",
+                  "url": "modules/Forms/Template-Designer/#template-attributes-1",
+                  "summary": "Proposal template attributes include title, optional description, object type, target language, target repository and folder, template owner, approval requirement, and approver(s); approval requires ADOIT v18+.",
+                  "content": "First, you have to fill out the following fields for the template:\n1. Title: Choose a descriptive name for the template.\n2. Description (optional): Add a description that describes what the template is about.\n3. Object type: Select what kind of ADOIT objects should be created with this template.\n4. Target language: Per default, the ADOIT primary database language is selected for all templates. Select a language, if you want another ADOIT content language to be updated by this template.\n5. Target repository: Select the ADOIT respository, where the new objects should be created.\n6. Target folder: Select the ADOIT object folder, where the new objects should be created.\n7. Template owner: The selected user will receive an email notification for every created object (only when approval is not required).\n8. Approval required: Decide whether the object should be created directly after the form submission, or whether it requires approval.\n9. Approver: Select user(s) that will receive an email notification for every proposal and will be responsible for reviewing them (only when approval is required).\n\nnote\n\nThe approval feature is available for ADOIT version 18.0 or newer.",
+                  "children": []
+                },
+                {
+                  "id": "n31",
+                  "title": "Question attributes",
+                  "url": "modules/Forms/Template-Designer/#question-attributes-1",
+                  "summary": "Proposal question attributes mirror update templates: question title, optional description, linked ADOIT property or relation, relation target type, and optional selection restrictions; saving is necessary.",
+                  "content": "Once the template attributes are defined, you can Add Question and define for each question:\n1. Question title: Define an easy-to-understand question.\n2. Question description (optional): Add some context to the question.\n3. Property: Select an ADOIT attribute or an ADOIT relation of the previously choosen object type.\n4. Relation target: For property values of type relation, it is additionally necessary to define a target object type.\n5. Restrict relation target selection: For property values of type relation, it is possible to select a saved ADOIT search query to limit the selectable target objects for this question.\n\nnote\n\nDo not forget to save your template before closing the template designer!",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "n32",
+              "title": "How to activate a proposal template",
+              "url": "modules/Forms/Template-Designer/#how-to-activate-a-proposal-template",
+              "summary": "Proposal templates are inactive by default; activate them in the Templates view under 'Proposal templates' tab to make them available in the Proposals view.",
+              "content": "Proposal templates are deactivated per default. Only activated proposal templates are availeble in the Proposals view.\n\nTo activate a proposal template, go to the Templates view, select the repository where the template is stored, switch to the tab Proposal templates and click Activate in the template row you want to activate.",
+              "children": []
+            },
+            {
+              "id": "n33",
+              "title": "How to edit a proposal template",
+              "url": "modules/Forms/Template-Designer/#how-to-edit-a-proposal-template",
+              "summary": "Edit proposal templates by selecting and saving changes in the Templates view under 'Proposal templates' tab.",
+              "content": "Go to the Templates view, select the repository where the template is stored, switch to the tab Proposal templates and open Edit for a selected template. After you have made your changes, confirm them with Save.",
+              "children": []
+            },
+            {
+              "id": "n34",
+              "title": "How to import sample proposal templates",
+              "url": "modules/Forms/Template-Designer/#how-to-import-sample-proposal-templates",
+              "summary": "Import best practice proposal templates for immediate checking and activation; deleted or renamed templates can be re-imported.",
+              "content": "Go to the Templates view, select the repository where the template is stored, switch to the tab Proposal templates and click Import best practice templates.\n\nThe imported templates can directly be checked and activated.\n\nAfter an imported template is deleted, or the name is changed, the template can be imported again.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n35",
+          "title": "Submit a Form",
+          "url": "modules/Forms/MyForms/",
+          "summary": "ADOIT Forms allows users to update existing ADOIT objects like Application Components or Business Objects via forms.",
+          "content": "ADOIT Forms enables you to easily update your ADOIT objects, like Application Components or Business Objects.",
+          "children": [
+            {
+              "id": "n36",
+              "title": "How to access a Form",
+              "url": "modules/Forms/MyForms/#how-to-access-a-form",
+              "summary": "Access forms via direct email notification links or through the My Forms view on ADOIT Forms website; OAuth connection details are in the OAuth section.",
+              "content": "You can access Forms you are responsible for by\n1. Opening a Form directly out of an ADOIT Forms email notification\n2. Opening My Forms on ADOIT Forms (boc-cloud.com)\n\nnote\n\nThe details on how to connect to your ADOIT installation are described in the OAuth section.",
+              "children": [
+                {
+                  "id": "n37",
+                  "title": "Email notifications",
+                  "url": "modules/Forms/MyForms/#email-notifications",
+                  "summary": "Email notifications contain direct deep-links to forms for responsible users to open them in a web browser.",
+                  "content": "Every email notification sent by ADOIT Forms contains one or more direct links to a Form you are responsible for. By clicking on such a link, the Form is opened in your web browser.",
+                  "children": []
+                },
+                {
+                  "id": "n38",
+                  "title": "My Forms",
+                  "url": "modules/Forms/MyForms/#my-forms",
+                  "summary": "My Forms view lists all forms assigned to the user, showing form name (clickable), template used, and status (Open, Updated, Approved).",
+                  "content": "In this view you can see a list of all Forms your ADOIT user is responsible for.\n• Name: Click on the name of the Form to open the respective Form in a new browser tab.\n• Template: Template that is used for this Form.\n• Status: Shows the current state of the Form: Open (not yet submitted) or Updated (submitted). When approval is required, Approved is shown after the Form has been reviewed and approved. Note, that forms requiring approval can be opened only if status is Open.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "n39",
+              "title": "How to complete a Form",
+              "url": "modules/Forms/MyForms/#how-to-complete-a-form",
+              "summary": "Complete forms by answering mandatory and optional questions; submit to update objects directly or send for approval if required; forms can be reopened and resubmitted anytime.",
+              "content": "A Form consists of a set of questions. Every question is of a specific question type like free text, dropdown, date or references. Mandatory questions are marked with a red *.\n\nWithin a Form you can click on the name and open the underlying object directly in ADOIT.\n\nAfter you have updated all questions, the Form can be submitted by clicking on Submit. After the changes are saved, a success report is displayed and the Form status changes to Updated. Note that in case approval is not required, the object is updated directly in the repository. Otherwise, the Form is sent to the review.\n\nnote\n\nThe approval feature is available for ADOIT version 18.0 or newer.\n\nnote\n\nThe selected ADOIT Forms user interface language may differ from the ADOIT data language, which depends on the template settings.\n\nYou can come back to the Form and submit again any time.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n40",
+          "title": "Propose a new object",
+          "url": "modules/Forms/Proposals/",
+          "summary": "Users can propose new ADOIT objects via proposal forms; OAuth connection details are provided in the OAuth section.",
+          "content": "ADOIT Forms enables you to easily propose new objects for your ADOIT, like a new Application Component or a System Software, by using proposal Forms.\n\nnote\n\nThe details on how to connect to your ADOIT installation are described in the OAuth section.",
+          "children": [
+            {
+              "id": "n41",
+              "title": "How to access proposal Forms",
+              "url": "modules/Forms/Proposals/#how-to-access-proposal-forms",
+              "summary": "Access proposal forms via the Proposals view on ADOIT Forms website, listing accessible proposal forms with names and descriptions.",
+              "content": "You can access proposal Forms by opening the Proposals view at ADOIT Forms (boc-cloud.com)\n\nnote\n\nThe Proposals view is only available, if there is at least one proposal Form accessbile for your user.\n\nIn this view you can see a list of all proposals Forms your ADOIT user has access to.\n• Name: Click on the name to open the proposal Form.\n• Description: Details of the proposal Form.",
+              "children": []
+            },
+            {
+              "id": "n42",
+              "title": "How to complete a proposal Form",
+              "url": "modules/Forms/Proposals/#how-to-complete-a-proposal-form",
+              "summary": "Complete proposal forms by answering questions including a unique object name; submit to create objects directly or send for approval; UI language may differ from ADOIT data language.",
+              "content": "A Form consists of a set of questions. Every question is of a specific question type like free text, dropdown, date or references. Mandatory questions are marked with a red *.\n\nnote\n\nYou must enter an unique name for the object you are proposing. If an object with the same name already exists, the proposal cannot be completed successfully.\n\nAfter you have updated all questions, the Form can be submitted by clicking on Submit. After the changes are saved, a success report is displayed. Note that in case approval is not required, a new object is created directly in the repository. Otherwise, it is sent to the review.\n\nnote\n\nThe approval feature is available for ADOIT version 18.0 or newer.\n\nnote\n\nThe selected ADOIT Forms user interface language may differ from the ADOIT data language, which depends on the template settings.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n43",
+          "title": "Review submissions",
+          "url": "modules/Forms/MyApprovals/",
+          "summary": "Forms Reviewers can approve or reject submitted forms when approval is required; this feature requires ADOIT v18+ and appropriate permissions.",
+          "content": "In case approval is required, Forms Reviewers can see an overview of submitted forms and approve or reject them.\n\nnote\n\nThe approval feature is available for ADOIT version 18.0 or newer.\n\nnote\n\nYou need to have user permissions to be able to open the approval component of ADOIT Forms.",
+          "children": [
+            {
+              "id": "n44",
+              "title": "Review a single proposal",
+              "url": "modules/Forms/MyApprovals/#review-a-single-proposal",
+              "summary": "Review single proposals by modifying submitted values, then approve or reject with optional rejection reasons sent via email to submitters.",
+              "content": "Select a proposal and review values submitted in a form.\n\nIt can be rejected (in that case submitted values are lost) or approved. Once it is approved, a new object is created in the repository and a success message is displayed. Note, that values can be modified before approval.\n\nData can be modified and directly approved or changes can be saved and approved (or rejected) at another time.\n\nOn both rejection and approval, an email is sent to the submitter of the proposal.\n\nWhen rejecting a proposal, a confirmation dialog is displayed. You can optionally enter a rejection reason. If provided, the reason is included in the rejection email sent to the person who submitted the proposal.",
+              "children": []
+            },
+            {
+              "id": "n45",
+              "title": "Review a single update form",
+              "url": "modules/Forms/MyApprovals/#review-a-single-update-form",
+              "summary": "Review single update forms by modifying submitted values, then approve or reject with optional rejection reasons emailed to submitters.",
+              "content": "Select an update form and review values submitted.\n\nIt can be rejected (in that case submitted values are lost) or approved. Once it is approved, the changes are applied to the object in the repository and a success message is displayed. Note, that values can be modified before approval.\n\nOn both rejection and approval, an email is sent to the submitter of the Form.\n\nWhen rejecting an update form, a confirmation dialog is displayed. You can optionally enter a rejection reason. If provided, the reason is included in the rejection email sent to the person who submitted the form.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n46",
+          "title": "Personalized access with OAuth 2.0",
+          "url": "modules/Forms/OAuth/",
+          "summary": "ADOIT Forms uses OAuth 2.0 to grant personalized access to ADOIT content, respecting existing user permissions without granting extra rights.",
+          "content": "This section describes how you can grant ADOIT Forms personalized access to your ADOIT contents with the technology OAuth 2.0.\n\nnote\n\nYou can only access and change ADOIT contents that your ADOIT user is permitted to. No additional access rights to ADOIT contents are granted by ADOIT Forms.",
+          "children": [
+            {
+              "id": "n47",
+              "title": "User prerequisites",
+              "url": "modules/Forms/OAuth/#user-prerequisites",
+              "summary": "User prerequisites include having a personal ADOIT user with assigned ADOIT Forms license, at least one user group, and repository; system role assignment is optional.",
+              "content": "• You must have a personal ADOIT user (in the User Management of ADOIT Administration Toolkit)\n• The ADOIT user needs to have an ADOIT Forms license seat assigned\n• The ADOIT user needs to have at least one user group assigned\n• The ADOIT user needs to have at least one repository assigned\n• An assigned system role is not mandatory",
+              "children": []
+            },
+            {
+              "id": "n48",
+              "title": "Security and comfort improvements",
+              "url": "modules/Forms/OAuth/#security-and-comfort-improvements",
+              "summary": "From version 1.7.0, security and comfort improvements include recommending SSO, marking ADOIT Forms as a First-party application in ADOIT Administration, and setup instructions for OAuth 2.0 connections.",
+              "content": "Starting from version 1.7.0 of ADOIT Forms, additional security and comfort improvements are introduced (for ADOIT version 18.1.0 and higher).\n• To avoid having to provide ADOIT credentials, it is strongly recommended to use ADOIT with SSO.\n• To avoid having to explicitly approve the connection (see 2. Allow access below), the ADOIT Forms should be marked as a First-party application in the ADOIT Administration.\n• For ADOIT instances connected after this change was implemented, ADOIT Forms is automatically marked as a First-party application by the setup script (see Installation).\n• For ADOIT instances connected before this change was implemented, it might be required to set it up. Go to ADOIT Administration and open Authentication and OAuth 2.0 To set is up, the option First-party application should be enabled for the connection with the ID forms-boc-cia. OAuth 2.0 configuration is described here.\n\nConnecting ADOIT version below 18.1.0 or without proper configuration described above, establishing the connection is more explicit as described below.",
+              "children": []
+            },
+            {
+              "id": "n49",
+              "title": "OAuth flow - establish a connection",
+              "url": "modules/Forms/OAuth/#oauth-flow---establish-a-connection",
+              "summary": "OAuth flow requires users to explicitly allow ADOIT Forms to access their ADOIT account.",
+              "content": "You have to allow ADOIT Forms to use your ADOIT user by the following steps.",
+              "children": [
+                {
+                  "id": "n50",
+                  "title": "1. Login",
+                  "url": "modules/Forms/OAuth/#1-login",
+                  "summary": "Login step involves verifying the correct ADOIT instance URL and clicking Connect in the dialog.",
+                  "content": "Whenever you see the Connect dialog, please check if the correct ADOIT instance URL is visible and click on Connect.\n\nnote\n\nBefore you click on Connect, verify that this is an actual ADOIT URL of your organisation!",
+                  "children": []
+                },
+                {
+                  "id": "n51",
+                  "title": "2. Allow access",
+                  "url": "modules/Forms/OAuth/#2-allow-access",
+                  "summary": "Allow access step requires clicking Allow after login to connect ADOIT Forms to the ADOIT account; successful connection is shown on start page.",
+                  "content": "After the successful login, please click Allow to connect ADOIT Forms to your ADOIT account.\n\nIf your user is eligible for the connection, you will see the currently connected ADOIT instance on the ADOIT Forms start page.",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "n52",
+              "title": "Terminate access",
+              "url": "modules/Forms/OAuth/#terminate-access",
+              "summary": "Terminate access by clicking logout in ADOIT Forms or revoking access in ADOIT user interface under Applications.",
+              "content": "Just click on the red logout button on the top right corner.\n\nAlternatively, you can revoke access in your ADOIT user interface in the user menu under Applications.",
+              "children": []
+            },
+            {
+              "id": "n53",
+              "title": "Troubleshooting",
+              "url": "modules/Forms/OAuth/#troubleshooting",
+              "summary": "",
+              "content": "",
+              "children": [
+                {
+                  "id": "n54",
+                  "title": "Message: Access denied!",
+                  "url": "modules/Forms/OAuth/#message-access-denied",
+                  "summary": "Access denied message appears if user explicitly denies access or has an active session in ADOIT Administration.",
+                  "content": "This message is displayed in two cases:\n1. User clicked explicitly on Deny\n2. User has an active session in ADOIT Administration",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "n55",
+          "title": "Hardware and Software Requirements",
+          "url": "modules/Forms/HW-SW-Requirements/",
+          "summary": "",
+          "content": "",
+          "children": [
+            {
+              "id": "n56",
+              "title": "Architecture",
+              "url": "modules/Forms/HW-SW-Requirements/#architecture",
+              "summary": "Architecture includes ADOIT instance (on-premise/cloud), ADOIT Forms client-side (browser), server-side (AWS), ADOIT web client, BOC Cloud Services, web browser, OAuth 2.0, and REST API components.",
+              "content": "ADOIT instance | ADOIT instance which is deployed either on premise, in a private cloud or at BOC cloud services.\nADOIT Forms (client-side) | The part of ADOIT Forms that is executed directly in the web browser of the user.\nADOIT Forms (server-side) | The part of ADOIT Forms that is executed on Amazon Web Services (AWS). The URL https://adoit-forms.boc-cloud.com/ must be accessible from the user's web browser. No ADOIT data is stored or processed on server-side.\nADOIT web client | ADOIT running in the web browser of the user.\nBOC Cloud Services | Cloud-native application services provided by BOC and hosted on AWS.\nWeb browser | Web client used to access both ADOIT instance and ADOIT Forms by the user.\nOAuth | OAuth 2.0 component provided by ADOIT.\nREST API | RESTful endpoints provided by ADOIT.",
+              "children": []
+            },
+            {
+              "id": "n57",
+              "title": "Software Requirements",
+              "url": "modules/Forms/HW-SW-Requirements/#software-requirements",
+              "summary": "Software requirements: ADOIT Enterprise Edition 17.1+, recommended browsers are Microsoft Edge and Google Chrome.",
+              "content": "Requirements\nADOIT | Enterprise Edition: ADOIT 17.1 or higher\nRecommended Browser | Microsoft Edge Google Chrome",
+              "children": []
+            },
+            {
+              "id": "n58",
+              "title": "ADOIT Setup",
+              "url": "modules/Forms/HW-SW-Requirements/#adoit-setup",
+              "summary": "ADOIT setup requires enabling REST API with OAuth 2.0, CORS, SSL/HTTPS, licensed RESTful services, assigning system roles and user rights for ADOIT Forms, and proper user license and permissions; see Installation Manual for details.",
+              "content": "This section describes the setup requirements for ADOIT when using ADOIT Forms.\nRequirements\nAuthentication | To read and write data from and to ADOIT instances, the REST API with OAuth 2.0 must be enabled. To ensure ease of use, it is strongly recommended to use ADOIT with SSO. See relevant section.\nCORS policy | CORS has to be enabled.\nSecurity | SSL/HTTPS is required.\nRESTful services | Licensed and activated.\nSystem Settings (Modules) | ADO Forms has to be assigned to the system roles using ADOIT Forms.\nUser Rights Management | All user and access rights for ADOIT Forms are defined in the ADOIT Administration. NOTE: Only content that the user has write access to, can be updated by the user via ADOIT Forms.\nUser License | To enable an ADOIT user to access ADOIT Forms, an ADOIT Forms user license has to be assigend to the respective user.\nTemplate Designer | To grant an ADOIT user template designer rights, the user must have an ADOIT Forms license, Forms Designer user group and FormsDesigner system role assigned.\nForms Submitter | To grant an ADOIT user Forms submitter rights, the user must have an ADOIT Forms license assigned and at minimum read access to the root folder objects.\nForms Reviewer (available for ADOIT version 18.0 or newer) | To review submitted Forms, the user must have an ADOIT Forms license, Forms Designer user group and FormsDesigner system role assigned.\nBase URL | Compliant with connection settings.\n\nFor more information on the setup process, please check the Installation Manual document.",
+              "children": []
+            },
+            {
+              "id": "n59",
+              "title": "Hardware Requirements",
+              "url": "modules/Forms/HW-SW-Requirements/#hardware-requirements",
+              "summary": "Hardware requirements depend on ADOIT's needs and may require increased resources depending on ADOIT Forms usage.",
+              "content": "Make sure the requirements of ADOIT are met.\n\nDepending on the usage scenario of ADOIT Forms, it might be required to increase the hardware resources for ADOIT.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n60",
+          "title": "Installation",
+          "url": "modules/Forms/Installation-Manual/",
+          "summary": "Installation involves preparing the ADOIT instance for ADOIT Forms and granting user access.",
+          "content": "This section describes how to\n1. prepare your ADOIT instance to be used with ADOIT Forms.\n2. grant ADOIT user access to ADOIT Forms.",
+          "children": [
+            {
+              "id": "n61",
+              "title": "1. Activate ADOIT Forms",
+              "url": "modules/Forms/Installation-Manual/#1-activate-adoit-forms",
+              "summary": "Activate ADOIT Forms in ADOIT Administration by enabling RESTful services, OAuth 2.0 with specific APIs, whitelisting CORS domains, creating system roles and user groups; requires environment restart and compliant Base URL.",
+              "content": "In your ADOIT Administration open Settings, go to ADOIT Forms and General.\n\nSetup enables ADOIT Forms and leads to the following changes in the ADOIT settings:\n• Activation of the setting Activate standard RESTful Services globally\n• Activation of the setting Activate OAuth 2.0 with the\n• Repository scenarios: Repository read APIs, Repository write APIs, Repository search APIs\n• User scenarios: User read APIs\n• Metamodel scenarios: Metamodel read APIs\n• Activation of Allow whitelisted CORS for both General and REST (See Configure CORS for more details) Domains to be whitelisted are:\n• https://adoit-forms.boc-cloud.com\n• Activation of OAuth 2.0 and creation of an client\n• Creation of the system role FormsDesigner\n• Creation of the user group Forms Designer\n\nnote\n\nThe Base URL set for the ADOIT (see related instruction) must be compliant with the URL provided in the connection setup. A common source of issues is that it is different (for example a test URL provided in a production environment) or additional endings like /auth.view, /main.view, etc. are added.\n\nnote\n\nChanging this setting requires a restart of the ADOIT environment.",
+              "children": []
+            },
+            {
+              "id": "n62",
+              "title": "2. Configure users for ADOIT Forms",
+              "url": "modules/Forms/Installation-Manual/#2-configure-users-for-adoit-forms",
+              "summary": "Configure users for ADOIT Forms by assigning user groups, system roles, licenses, and ensuring appropriate access rights for Template Designers, Forms Submitters (update/proposal), and Forms Reviewers.",
+              "content": "In your ADOIT Administration you can enable your ADOIT users to use ADOIT Forms as\n• Template Designer\n• Forms Submitter (update)\n• Forms Submitter (proposal)\nADOIT Forms user type | Needed configuration\nTemplate Designer / Forms Reviewer | 1. Assign user group Forms Designer. 2. Ensure that system role FormsDesigner is assigned. 3. Only for named use license scenarios: Assign ADOIT Forms scenario under Named user.\nForms Submitter (update) | 1. Ensure write access to relevant Objects. 2. Only for named use license scenarios: Assign ADOIT Forms scenario under Named user. 3. Ensure that in Settings > System settings (Modules) the module ADOIT Forms is assigned to the used custom system role.\nForms Submitter (proposal) | 1. Ensure write access to relevant target folder. 2. Only for named use license scenarios: Assign ADOIT Forms scenario under Named user. 3. Ensure that in Settings > System settings (Modules) the module ADOIT Forms is assigned to the used custom system.\nForms Submitter (proposal and update with approval required) | 1. Assign arbitrary system role selected in Settings > ADOIT Forms > Settings for approvals. 2. Only for named use license scenarios: Assign ADOIT Forms scenario under Named user. 3. Ensure that in Settings > System settings (Modules) the module ADOIT Forms is assigned to the used custom system role.",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n63",
+          "title": "ADOIT Forms Glossary",
+          "url": "modules/Forms/Glossary/",
+          "summary": "Glossary defines key terms: ADOIT element/object, Form, Proposal template, Template (update and proposal), emphasizing templates as blueprints linked to ADOIT attributes for specific object types.",
+          "content": "ADOIT element | A synonyme for ADOIT Object\nADOIT object | An architecture component like a Business Capability, an Application Component or a Data Object that is stored in the ADOIT respository. Can be updated by a Form.\nForm | User-friendly forms to update existing ADOIT objects or to propose new ADOIT objects.\nProposal template | A blueprint of a Form to propose new ADOIT objects.\nTemplate | A blueprint of a Form. There are update and proposal templates. A template consists of questions that are linked to ADOIT attributes or relations. A template is always defined for a single ADOIT object type.\nUpdate template | A blueprint of a Form to update data of existing ADOIT objects. Can be used to distribute Forms to object responsibles by assigning the template to selected ADOIT objects.",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
